@@ -152,7 +152,6 @@ MAADSBML Docker Run Parameters Explained
      - start of docker volume mapping
    * - \-p
      - port forwarding. For example, -p 5595:5595  means to forward your HOST port 5595 to the CONTAINER port 5595.  
-
        Left-hand side of the colon is the HOST port, | and right hand side of the colon is the container port: HOST:CONTAINER
    * - \--env
      - this is docker's environment variable setting
@@ -167,7 +166,8 @@ MAADSBML Docker Run Parameters Explained
    * - MAXRUNTIME
      - You can specify the maximum number of minutes to train on your dataset before MAADSBML aborts.
    * - ACCEL
-     - This is useful for training on VERY LARGE datasets.  Set this to 1 if training on very large datasets (200K+ rows), otherwise leave at 0.
+     - This is useful for training on VERY LARGE datasets.  Set this to 1 if training on very large datasets (200K+ rows), 
+        otherwise leave at 0.
    * - MAINHOST
      - This is the IP Address MAADSBML will listen on for connections.
    * - maadsdocker/maads-batch-automl-otics
