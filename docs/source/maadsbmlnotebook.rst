@@ -83,11 +83,14 @@ MAADSBML Jupyter Notebook Explained
       return jsonalgostr
 
 .. code-block::
-   :emphasize-lines: 1
+   :emphasize-lines: 1,2,3,4,5,32,33,34
 
    # This is the MAIN ML Training function
+   # You must enter host, port, filename,dependentvariable,removeoutliers,hasseasonality,deepanalysis,company
+   # Deepanalysis will perform advanced algorithms but will take potentially hours to complete based on the 
+   # size of your data
+   # You can also change the summer, shoulder and winter months
    def hypertraining(host,port,filename,dependentvariable,removeoutliers,hasseasonality,deepanalysis,company):
-
     #host,port,
     #filename= raw data file in csv format - Note this file is stored on your host machine the DOCKER container needs to be mapped to this volume using -v
     #dependentvariable= dependent variable name - this is the column name in the csv file
