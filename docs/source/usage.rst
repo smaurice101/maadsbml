@@ -81,7 +81,9 @@ Step 1: Create Local Folders on your local machine:
 
 .. important:: 
 
-   Once you created local folder - then use the Docker -v to map your local folders to the Docker container folders:
+   Once you created local folder - then use the Docker -v to map your local folders to the Docker container folders.  If you do not do volume mappings, all data 
+   will be stored ONLY in the docker container and NOT ACCESSIBLE outside of the container.  If you STOP the container **ALL YOUR MAADSBML OUTPUT DATA WILL BE 
+   LOST**.
 
 .. code-block:: console
    
@@ -107,6 +109,8 @@ Docker run parameters explained:
      - **Description**
    * - \-d
      - runs the container in detached mode
+   * - \-v
+     - start of docker volume mapping
 
 .. autoexception:: lumache.InvalidKindError
 
