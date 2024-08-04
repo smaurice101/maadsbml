@@ -157,7 +157,7 @@ This library allows users to harness the power of agent-based computing using hu
 *theinputdata* : string, required
 
 - These are the Xs for your model: For example if my model had 3 Xs then inputdata='5/21/2010,-14.3,-32.0,-12.0', with the first entry as Date: Date 
-must be in the format: MM/DD/YYYY
+must be in the format: M/D/YYYY
 
 *host* : string, required
 
