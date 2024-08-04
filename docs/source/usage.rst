@@ -85,21 +85,21 @@ Step 1: Create Local Folders on your local machine:
 
 .. code-block:: console
    
-   docker run -d -v {YOUR LOCAL FOLDER PATH}/csvuploads:/maads/agentfilesdocker/dist/maadsweb/csvuploads:z-v {YOUR LOCAL FOLDER 
-   PATH}/pdfreports:/maads/agentfilesdocker/dist/maadsweb/pdfreports:z-v {YOUR LOCAL FOLDER 
-   PATH}/autofeatures:/maads/agentfilesdocker/dist/maadsweb/autofeatures:z-v {YOUR LOCAL FOLDER PATH}/outliers:/maads/agentfilesdocker/dist/maadsweb/outliers:z-v 
-   {YOUR LOCAL FOLDER PATH}/sqlloads:/maads/agentfilesdocker/dist/maadsweb/sqlloads:z-v {YOUR LOCAL FOLDER 
-   PATH}/networktemp:/maads/agentfilesdocker/dist/maadsweb/networktemp:z-v {YOUR LOCAL FOLDER PATH}/networks:/maads/agentfilesdocker/networks:z-v {YOUR LOCAL 
-   FOLDER PATH}/exception:/maads/agentfilesdocker/dist/maadsweb/exception:z-v {YOUR LOCAL FOLDER PATH}/staging:/maads/agentfilesdocker/dist/staging:z-p 5595:5595  
+   docker run -d -v {YOUR LOCAL FOLDER PATH}/csvuploads:/maads/agentfilesdocker/dist/maadsweb/csvuploads:z -v {YOUR LOCAL FOLDER 
+   PATH}/pdfreports:/maads/agentfilesdocker/dist/maadsweb/pdfreports:z -v {YOUR LOCAL FOLDER 
+   PATH}/autofeatures:/maads/agentfilesdocker/dist/maadsweb/autofeatures:z -v {YOUR LOCAL FOLDER PATH}/outliers:/maads/agentfilesdocker/dist/maadsweb/outliers:z -v 
+   {YOUR LOCAL FOLDER PATH}/sqlloads:/maads/agentfilesdocker/dist/maadsweb/sqlloads:z -v {YOUR LOCAL FOLDER 
+   PATH}/networktemp:/maads/agentfilesdocker/dist/maadsweb/networktemp:z -v {YOUR LOCAL FOLDER PATH}/networks:/maads/agentfilesdocker/networks:z -v {YOUR LOCAL 
+   FOLDER PATH}/exception:/maads/agentfilesdocker/dist/maadsweb/exception:z -v {YOUR LOCAL FOLDER PATH}/staging:/maads/agentfilesdocker/dist/staging:z -p 5595:5595  
    -p 5495:5495 -p 10000:10000 --env TRAININGPORT=5595 --env PREDICTIONPORT=5495 --env ABORTPORT=10000 --env COMPANYNAME=OTICS --env MAXRUNTIME=120 --env ACCEL=0  
    --env MAINHOST=127.0.0.1 maadsdocker/maads-batch-automl-otics
 
+.. important::
 
-.. autofunction:: lumache.get_random_ingredients
+   Do not modify the right-hand side of the colon in the volume mapping.  For example {YOUR LOCAL FOLDER 
+   PATH}/csvuploads**:/maads/agentfilesdocker/dist/maadsweb/csvuploads:z**
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+
 
 .. autoexception:: lumache.InvalidKindError
 
