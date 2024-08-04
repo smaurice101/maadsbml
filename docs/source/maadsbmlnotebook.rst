@@ -159,7 +159,7 @@ Here is the output from the hypertraining function.
    * - PDF
      - Path where the PDF report is saved.
    * - Hasseasonality
-     - 
+     - Yes for seasonlity, No for no seasonality.
 
 
 .. code-block::
