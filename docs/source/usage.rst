@@ -9,15 +9,27 @@ Installation
 To use MAADSBML, first install docker engine in your computer:
 
 Setup
+
 1. You will need to have Linux OS installed
-• In Windows –you can install WSL (windows subsystem for Linux)
+
+• In Windows –you can install WSL (windows subsystem for Linux).  Open Powershell or command prompt in Administrator mode and type:
+
+.. code-block:: console
+   wsl --install
+
+Once wsl is installed then update the Linux distro:
+
+.. code-block:: console
+   sudo apt update & sudo apt upgrade
+
 • In Mac –Use Terminal
 
 Or get a VM running with Linux Ubuntu installed
 
-2. Install Docker:
-You can install Docker Desktop (Windows/Mac)
-Or in linux run: sudoapt install docker.io
+2. Install Docker: You can install Docker Desktop (Windows/Mac) Or in linux run: 
+
+.. code-block:: console
+   sudoapt install docker.io
 
 3. Pull the maadsbmldocker container:
 AMD64 container for Windows/Linux is here: docker pull maadsdocker/maads-batch-automl-otics
