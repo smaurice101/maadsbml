@@ -145,8 +145,9 @@ This library allows users to harness the power of agent-based computing using hu
         
 - PKEY: : This is the key to the BEST algorithm and must be used when making predictions.
 			
-**2. maadsbml.hyperpredictions(pkey,theinputdata,host,port,username,algoname='',seasonname='',usereverseproxy=0,microserviceid='', password='123',company='otics',
-       email='support@otics.ca',maadstoken='123')**
+**2. maadsbml.hyperpredictions(pkey,theinputdata,host,port,username,algoname='',seasonname='', 
+     usereverseproxy=0,microserviceid='', password='123',company='otics', email='support@otics.ca',
+     maadstoken='123')**
 
 **Parameters:**	
 
