@@ -105,7 +105,23 @@ MAADSBML Folder Explanation
    * - **MAADSBML Folder**
      - **Description**
    * - csvuploads
-     - THIS IS WHERE YOU WRITE YOUR OWN FILE FOR PROCESSING
+     - THIS IS WHERE YOU STORE YOUR OWN FILE FOR MAADSBML TRAINING
+   * - pdfreports
+     - THIS IS WHERE YOU WILL FIND THE MAADSBML PDF REPORT
+   * - autofeatures
+     - THIS IS WHERE YOU WILL FIND THE AUTOFEATURES
+   * - outliers 
+     – THIS IS WHERE YOU WILL FIND OUTLIERS
+   * - sqlloads
+     - THIS IS A SYSTEM FOLDER
+   * - networktemp
+     - THIS IS A SYSTEM FOLDER
+   * - networks 
+     - THIS IS WHERE THE ALGORITHMS ARE STORED
+   * - exception 
+     - THIS IS THE JSON FILE FOR THE ALGORITHM OUTPUT
+   * - staging 
+     - THIS IS A SYSTEM FOLDER
 
 .. code-block:: console
    
