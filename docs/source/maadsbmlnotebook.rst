@@ -83,7 +83,7 @@ MAADSBML Jupyter Notebook Explained
       return jsonalgostr
 
 .. code-block::
-   :emphasize-lines: 1,2,3,4,5,32,33,34
+   :emphasize-lines: 1,2,3,4,5,28,29,30,31,32
 
    # This is the MAIN ML Training function
    # You must enter host, port, filename,dependentvariable,removeoutliers,hasseasonality,deepanalysis,company
@@ -112,10 +112,9 @@ MAADSBML Jupyter Notebook Explained
     #usereverseproxy=0, - leave as is
     #microserviceid='', leave as is
     #maadstoken='123' leave as is
-    summer='6,7,8'
-    winter='11,12,1,2'
-    shoulder='3,4,5,9,10'
-    #shoulder='-1'
+    summer='6,7,8' # specify -1 if you dont want to analyse summer
+    winter='11,12,1,2' # specify -1 if you dont want to analyse winter 
+    shoulder='3,4,5,9,10' # specify -1 if you dont want to analyse shoulder 
     trainingpercentage=75
     shuffle=1
     res=maadsbml.hypertraining(host, port, filename, dependentvariable,removeoutliers,hasseasonality, summer,winter,shoulder,trainingpercentage, shuffle, 
