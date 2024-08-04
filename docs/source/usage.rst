@@ -99,6 +99,9 @@ Step 1: Create Local Folders on your local machine:
    Do not modify the right-hand side of the colon in the volume mapping.  For example {YOUR LOCAL FOLDER 
    PATH}/csvuploads **:/maads/agentfilesdocker/dist/maadsweb/csvuploads:z**
 
+Docker run parameters explained:
+
+.. 
 
 
 .. autoexception:: lumache.InvalidKindError
