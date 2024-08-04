@@ -130,7 +130,22 @@ MAADSBML Jupyter Notebook Explained
            
     print(res)
 
-Once you have executed hypertraining - the output will be the pkey (or AlgoKey) use this this AlgoKey to as input into hyperprediction.
+Here is the output from the hypertraining function.
+
+.. code-block::
+
+   {**"AlgoKey":"admin_stockdata_csv"**,"AlgoDetails":"RidgeRegression,0.996,allseason;LassoCV,0.995864, 
+   allseason;VotingRegressor,0.995778,allseason;LinearSVR,0.995763,allseason;HuberRegressor,0.99503, 
+   allseason;simpleregression_reg,0.995,allseason;ARDRegression,0.994911,allseason;BayesianRidge,0.994905, 
+   allseason;Lars,0.994774,allseason;LarsCV,0.994774,allseason;", "PDF":"/maads/agentfilesdocker/dist/maadsweb/pdfreports/admin_stockdata_csv_no_seasons.pdf", 
+   "Hasseasonality":"No","Deep Analysis":"No","Shuffled":"Yes","Outliers Removed":"No", "Generated On":"2024-04-25 00:28:37", 
+   "Timezone":"UTC","Username":"admin","Dependentvariable":"close", "Filename":"/maads/agentfilesdocker/dist/maadsweb/csvuploads/stockdata.csv", 
+   "Host":"127.0.0.1","Port":5595,"AlgoJson":"/maads/agentfilesdocker/dist/maadsweb/exception/admin_stockdata_csv_trained_algo_no_seasons.json", 
+   "MainSortedAlgosInfoWeighted":"The numbers in the main sorted algorithms represent the average of the MAPE, R-Square, Explained Variance and Model 
+   Accuracy","BESTALGO-ALLSEASON":"RidgeRegression", "MainSortedAlgos-Weighted- 
+   Allseason":"VotingRegressor,0.998;LinearSVR,0.998;HuberRegressor,0.998;RidgeRegression,0.997;LassoCV,0.997; 
+   simpleregression_reg,0.996;ARDRegression,0.996;BayesianRidge,0.996;RANSACRegressor,0.996;LassoLarsIC,0.996", "BESTALGOWEIGHTED-ALLSEASON":"VotingRegressor"}
+   Once you have executed hypertraining - the output will be the pkey (or AlgoKey) use this this AlgoKey to as input into hyperprediction.
 
 .. code-block::
 
