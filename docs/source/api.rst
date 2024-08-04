@@ -7,7 +7,7 @@ MAADSBML Python Library API
 
 **Overview**
 
-*MAADSBML combines Artificial Intelligence, Docker, Machine Learning.  It automates the machine learning process, and finds the BEST algorithm for your data.  It also
+MAADSBML combines Artificial Intelligence, Docker, Machine Learning.  It automates the machine learning process, and finds the BEST algorithm for your data.  It also
 produces a very detailed PDF report.  MAADSBML is integrated with Docker Container.
  
 This library allows users to harness the power of agent-based computing using hundreds of advanced linear and non-linear algorithms. 
