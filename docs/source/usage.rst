@@ -151,7 +151,8 @@ MAADSBML Docker Run Parameters Explained
    * - \-v
      - start of docker volume mapping
    * - \-p
-     - port forwarding. For example, -p 5595:5595  means to forward your HOST port 5595 to the CONTAINER port 5595.  | 
+     - port forwarding. For example, -p 5595:5595  means to forward your HOST port 5595 to the CONTAINER port 5595.  
+
        Left-hand side of the colon is the HOST port, | and right hand side of the colon is the container port: HOST:CONTAINER
    * - \--env
      - this is docker's environment variable setting
