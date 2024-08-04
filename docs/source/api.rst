@@ -52,7 +52,7 @@ This library allows users to harness the power of agent-based computing using hu
 1. **maadsbml.hypertraining(host, port, filename, dependentvariable, removeoutliers=0, hasseasonality=0,
       summer='6,7,8', winter='11,12,1,2', shoulder='3,4,5,9,10', trainingpercentage=70, shuffle=0, deepanalysis=0, 
       username='admin', timeout=1200, company='otics', password='123', email='support@otics.ca',usereverseproxy=0,
-       microserviceid='', maadstoken='123', mode=0)**
+      microserviceid='', maadstoken='123', mode=0)**
 
 **Parameters:**	
 
