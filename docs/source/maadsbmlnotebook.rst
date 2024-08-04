@@ -24,8 +24,9 @@ MAADSBML Jupyter Notebook Explained
 ------------------------------
 
 .. code-block::
-   :emphasize-lines: 10,11,15,16
+   :emphasize-lines: 1,11,12,13,15,16,17,18
 
+   # IMPORT MAIN LIBRARIES
    import maadsbml
    import json
    import os
@@ -35,10 +36,11 @@ MAADSBML Jupyter Notebook Explained
    # Uncomment IF using jupyter notebook
    nest_asyncio.apply()
 
+   # SET THE HOST AND PORT WHERE MAADSBML IS LISTENING FOR A CLIENT CONNECTION
    host='http://127.0.0.1'
    port=5595
-   ### Change these two folder to your local paths that you used for the volume mappings in Docker Local Paths on Linux/Mac
 
+   ### Change these two folder to your local paths that you used for the volume mappings in Docker Local Paths on Linux/Mac
    # Local Paths on Windows - Change to your local paths
    localstagingfolder = "c:\\maads\\maadsbml\\staging" # change this folder to your local mapped staging folder
    localexceptionfolder = "c:\\maads\\maadsbml\\exception" # change this folder to your local mapped exception folder
