@@ -24,6 +24,7 @@ MAADSBML Jupyter Notebook Explained
 ------------------------------
 
 .. code-block::
+   :emphasize-lines: 10,11,15,16
 
    import maadsbml
    import json
@@ -43,7 +44,7 @@ MAADSBML Jupyter Notebook Explained
    localexceptionfolder = "c:\\maads\\maadsbml\\exception" # change this folder to your local mapped exception folder
 
 .. code-block::
-   :emphasize-lines: 3
+   :emphasize-lines: 1
 
    def readifbrokenpipe(jres,hasseasonality):
       # this function is called if there is a broken pipe network issue
