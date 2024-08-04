@@ -101,8 +101,12 @@ Step 1: Create Local Folders on your local machine:
 
 Docker run parameters explained:
 
-.. 
+.. list-table::
 
+   * - **Docker Run Parameter**
+     - **Description**
+   * - \- d
+     - runs the container in detached mode
 
 .. autoexception:: lumache.InvalidKindError
 
