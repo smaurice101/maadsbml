@@ -134,7 +134,7 @@ Here is the output from the hypertraining function.
 
 .. code-block::
 
-   {**"AlgoKey":"admin_stockdata_csv"**,"AlgoDetails":"RidgeRegression,0.996,allseason;LassoCV,0.995864, 
+   {**"AlgoKey"**:**"admin_stockdata_csv"**,"AlgoDetails":"RidgeRegression,0.996,allseason;LassoCV,0.995864, 
    allseason;VotingRegressor,0.995778,allseason;LinearSVR,0.995763,allseason;HuberRegressor,0.99503, 
    allseason;simpleregression_reg,0.995,allseason;ARDRegression,0.994911,allseason;BayesianRidge,0.994905, 
    allseason;Lars,0.994774,allseason;LarsCV,0.994774,allseason;", "PDF":"/maads/agentfilesdocker/dist/maadsweb/pdfreports/admin_stockdata_csv_no_seasons.pdf", 
