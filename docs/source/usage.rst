@@ -105,7 +105,7 @@ Docker run parameters explained:
 
    * - **Docker Run Parameter**
      - **Description**
-   * - \- d
+   * - \-d
      - runs the container in detached mode
 
 .. autoexception:: lumache.InvalidKindError
