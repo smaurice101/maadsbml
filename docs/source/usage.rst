@@ -101,6 +101,7 @@ MAADSBML Folder Explanation
 ----------------
 
 .. list-table::
+   :widths: 40 60
 
    * - **MAADSBML Folder**
      - **Description**
