@@ -19,3 +19,25 @@ To process your own data file simply drop it in your local folder: **csvuploads*
    • The Dependent variable MUST be contained in this file
 
    • ALL DATA IN YOUR CSV MUST BE NUMERIC (with exception of column headers)
+
+MAADSBML Jupyter Notebook Explained
+------------------------------
+
+.. code-block::
+
+   import maadsbml
+   import json
+   import os
+   import time
+   # Uncomment IF using jupyter notebook
+   import nest_asyncio
+   # Uncomment IF using jupyter notebook
+   nest_asyncio.apply()
+
+   host='http://127.0.0.1'
+   port=5595
+   ### Change these two folder to your local paths that you used for the volume mappings in Docker Local Paths on Linux/Mac
+
+   # Local Paths on Windows - Change to your local paths
+   localstagingfolder = "c:\\maads\\maadsbml\\staging" # change this folder to your local mapped staging folder
+   localexceptionfolder = "c:\\maads\\maadsbml\\exception" # change this folder to your local mapped exception folder
