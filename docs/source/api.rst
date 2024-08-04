@@ -1,7 +1,7 @@
 MAADSBML Python Library API
 ===========
 
-**Multi-Agent Accelerator for Data Science: Batch AutoML (MAADSBML)
+**Multi-Agent Accelerator for Data Science: Batch AutoML (MAADSBML)**
 
 *Revolutionizing Data Science with Artificial Intelligence*
 
