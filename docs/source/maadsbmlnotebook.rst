@@ -129,3 +129,22 @@ MAADSBML Jupyter Notebook Explained
           print(e)  
            
     print(res)
+
+.. code-block::
+
+   def hyperprediction(pkey,host,port,inputdata,username):
+  
+     res=maadsbml.hyperpredictions(pkey,inputdata,host,port,username)
+     print(res)
+
+.. code-block::
+
+   def hyperpredictioncustom(pkey,host,port,inputdata,username,algoname,season):
+    res=maadsbml.hyperpredictions(pkey,inputdata,host,port,username,algoname,season)
+    print(res)
+
+.. code-block::
+
+   def algoinfo(pk):
+     res=maadsbml.algodescription(host,port,pk)
+     print(res)
