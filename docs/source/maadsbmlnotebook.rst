@@ -43,7 +43,7 @@ MAADSBML Jupyter Notebook Explained
    localexceptionfolder = "c:\\maads\\maadsbml\\exception" # change this folder to your local mapped exception folder
 
 .. code-block::
-   :emphasize-lines: 8,10,16
+   :emphasize-lines: 3
 
    def readifbrokenpipe(jres,hasseasonality):
       # this function is called if there is a broken pipe network issue
