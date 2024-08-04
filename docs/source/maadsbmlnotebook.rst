@@ -24,7 +24,7 @@ MAADSBML Jupyter Notebook Explained
 ------------------------------
 
 .. code-block::
-   :emphasize-lines: 1,11,12,13,15,16,17,18
+   :emphasize-lines: 1,11,15,16,17
 
    # IMPORT MAIN LIBRARIES
    import maadsbml
@@ -40,7 +40,8 @@ MAADSBML Jupyter Notebook Explained
    host='http://127.0.0.1'
    port=5595
 
-   ### Change these two folder to your local paths that you used for the volume mappings in Docker Local Paths on Linux/Mac
+   # Change these two folders to your local paths that you used for the volume mappings 
+   # in Docker Local Paths on Linux/Mac
    # Local Paths on Windows - Change to your local paths
    localstagingfolder = "c:\\maads\\maadsbml\\staging" # change this folder to your local mapped staging folder
    localexceptionfolder = "c:\\maads\\maadsbml\\exception" # change this folder to your local mapped exception folder
@@ -48,6 +49,7 @@ MAADSBML Jupyter Notebook Explained
 .. code-block::
    :emphasize-lines: 1
 
+   # This function is a system function to capture broken pipe network issues - DO NOT MODIFY
    def readifbrokenpipe(jres,hasseasonality):
       # this function is called if there is a broken pipe network issue
       pkey=""
