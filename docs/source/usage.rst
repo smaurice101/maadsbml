@@ -111,7 +111,7 @@ MAADSBML Folder Explanation
    * - autofeatures
      - THIS IS WHERE YOU WILL FIND THE AUTOFEATURES
    * - outliers 
-     – THIS IS WHERE YOU WILL FIND OUTLIERS
+     - THIS IS WHERE YOU WILL FIND OUTLIERS
    * - sqlloads
      - THIS IS A SYSTEM FOLDER
    * - networktemp
