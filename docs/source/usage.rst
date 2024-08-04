@@ -143,6 +143,7 @@ MAADSBML Docker Run Parameters Explained
 ------------------------------
 
 .. list-table::
+    :widths: 20, 80
 
    * - **Docker Run Parameter**
      - **Description**
