@@ -131,9 +131,9 @@ Docker run parameters explained:
    * - MAINHOST
      - This is the IP Address MAADSBML will listen on for connections.
    * - maadsdocker/maads-batch-automl-otics
-     - Docker container for Windows/Linux users
+     - MAADSBML Docker container for Windows/Linux users
    * - maadsdocker/maads-batch-automl-otics-arm64
-     - Docker container for MAC/Linux users
+     - MAADSBML Docker container for MAC/Linux users
  
 
 .. important::
