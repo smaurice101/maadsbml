@@ -147,6 +147,19 @@ Here is the output from the hypertraining function.
    simpleregression_reg,0.996;ARDRegression,0.996;BayesianRidge,0.996;RANSACRegressor,0.996;LassoLarsIC,0.996", "BESTALGOWEIGHTED-ALLSEASON":"VotingRegressor"}
    Once you have executed hypertraining - the output will be the pkey (or AlgoKey) use this this AlgoKey to as input into hyperprediction.
 
+.. list-table::
+
+   * - JSON Field
+     - JSON Value
+   * - JSON Field
+     - JSON Value
+   * - JSON Field
+     - JSON Value
+   * - JSON Field
+     - JSON Value
+   * - JSON Field
+     - JSON Value
+
 
 .. code-block::
 
