@@ -182,11 +182,4 @@ MAADSBML Docker Run Parameters Explained
 
    Port forwarding is needed to access MAADSBML container from Jupyter notebook or any other exteral application.  MAADSBML is REST API compliant.
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
