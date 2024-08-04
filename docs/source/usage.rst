@@ -130,6 +130,11 @@ Docker run parameters explained:
      - This is useful for training on VERY LARGE datasets.  Set this to 1 if training on very large datasets (200K+ rows), otherwise leave at 0.
    * - MAINHOST
      - This is the IP Address MAADSBML will listen on for connections.
+   * - maadsdocker/maads-batch-automl-otics
+     - Docker container for Windows/Linux users
+   * - maadsdocker/maads-batch-automl-otics-arm64
+     - Docker container for MAC/Linux users
+ 
 
 .. important::
 
