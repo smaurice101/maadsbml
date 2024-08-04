@@ -149,16 +149,17 @@ Here is the output from the hypertraining function.
 
 .. list-table::
 
-   * - JSON Field
-     - JSON Value
+   * - **JSON Field**
+     - **JSON Value**
    * - AlgoKey
      - Key for your optimal algorithm.  This is main key.
    * - AlgoDetails
-     - Details about the algorithms. For example, RidgeRegression,0.996, means RidgeRegression has a MAPE (Mean Absolute Percentage Error) of 0.996
-   * - JSON Field
-     - JSON Value
-   * - JSON Field
-     - JSON Value
+     - Details about the algorithms. For example, RidgeRegression,0.996, allseason, means RidgeRegression has a MAPE (Mean Absolute Percentage Error) of 0.996 
+       with allseason (seasonality ignored).
+   * - PDF
+     - Path where the PDF report is saved.
+   * - Hasseasonality
+     - 
 
 
 .. code-block::
