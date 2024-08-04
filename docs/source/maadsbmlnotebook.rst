@@ -9,6 +9,8 @@ Process Your Data File
 To process your own data file simply drop it in your local folder: **csvuploads**
 
 .. important::
+ 
+   • You MUST have the MAADSBML docker container running
 
    • The file must be CSV (comma separated values)
 
