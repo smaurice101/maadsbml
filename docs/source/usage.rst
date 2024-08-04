@@ -34,6 +34,16 @@ Or get a VM running with Linux Ubuntu installed
    
    sudo apt install docker.io
 
+.. code-block:: console
+   
+   sudo chmod 666 /var/run/docker.sock
+
+Checking if docker is properly installed do:
+
+.. code-block:: console
+   
+   docker ps
+
 3. Pull the maadsbmldocker container for Windows/Linux (AMD64):
 
 .. code-block:: console
