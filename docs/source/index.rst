@@ -1,17 +1,13 @@
-Welcome to Lumache's documentation!
+Welcome to MAADSBML documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**MAADSBML** is Auto Machine Learning (AutoML) for Batch Data. It is a technology that runs in a Docker container and can be freely used by anyone.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+MAADSBML is a powerful AutoML technology that can analyse numeric data sets and find the BEST algorithm for your data.
 
 .. note::
 
-   This project is under active development.
+   MAADSBML runs in a Docker Container for both MAC/Linux and Windows/Linux users.
 
 Contents
 --------
