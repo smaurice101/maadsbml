@@ -34,10 +34,17 @@ Or get a VM running with Linux Ubuntu installed
    
    sudo apt install docker.io
 
-3. Pull the maadsbmldocker container:
-AMD64 container for Windows/Linux is here: docker pull maadsdocker/maads-batch-automl-otics
+3. Pull the maadsbmldocker container for Windows/Linux (AMD64):
 
-ARM64 container for MAC is here: docker pull maadsdocker/maads-batch-automl-otics-arm64
+.. code-block:: console
+
+   docker pull maadsdocker/maads-batch-automl-otics
+
+3b. Pull the maadsbml docker container for MAC/Linux (ARM64):
+
+.. code-block:: console
+
+   docker pull maadsdocker/maads-batch-automl-otics-arm64
 
 4. Install the MAADSBML Python library:
 
