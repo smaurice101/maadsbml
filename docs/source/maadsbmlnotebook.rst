@@ -41,3 +41,36 @@ MAADSBML Jupyter Notebook Explained
    # Local Paths on Windows - Change to your local paths
    localstagingfolder = "c:\\maads\\maadsbml\\staging" # change this folder to your local mapped staging folder
    localexceptionfolder = "c:\\maads\\maadsbml\\exception" # change this folder to your local mapped exception folder
+
+.. code-block::
+
+   def readifbrokenpipe(jres,hasseasonality):
+      # this function is called if there is a broken pipe network issue
+      pkey=""
+      algofile=""        
+      jsonalgostr = ""
+    
+      pkey= jres.get('AlgoKey')
+    
+      maadsbmlfile="%s/%s.txt.working" % (localstagingfolder,pkey)
+      if hasseasonality == 1:
+        algojsonfile="%s/%s_trained_algo_seasons.json" % (localexceptionfolder,pkey)
+      else:
+        algojsonfile="%s/%s_trained_algo_no_seasons.json" % (localexceptionfolder,pkey)
+        
+      i=0
+      while True:
+          time.sleep(5)            
+          i = i + 1
+          if os.path.isfile(maadsbmlfile): 
+               continue
+          elif os.path.isfile(algojsonfile):
+                # Read the json            
+              with open(algojsonfile) as f:
+                  jsonalgostr = f.read() 
+              break # maadsbml finished
+          #elif i > 400:
+          #   print("ERROR: Could not find the JSON file - CHECK IF YOUR FILE PATHS ARE CORRECT!")
+          #   break   
+      return jsonalgostr
+
