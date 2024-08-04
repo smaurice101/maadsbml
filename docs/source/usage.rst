@@ -97,7 +97,7 @@ Step 1: Create Local Folders on your local machine:
    will be stored ONLY in the docker container and NOT ACCESSIBLE outside of the container.  If you STOP the container **ALL YOUR MAADSBML OUTPUT DATA WILL BE 
    LOST**.
 
-MAADSBML Folder explanation
+MAADSBML Folder Explanation
 ----------------
 
 .. list-table::
