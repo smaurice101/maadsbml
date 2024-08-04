@@ -130,6 +130,8 @@ MAADSBML Jupyter Notebook Explained
            
     print(res)
 
+Once you have executed hypertraining - the output will be the pkey (or AlgoKey) use this this AlgoKey to as input into hyperprediction.
+
 .. code-block::
 
    def hyperprediction(pkey,host,port,inputdata,username):
@@ -137,11 +139,15 @@ MAADSBML Jupyter Notebook Explained
      res=maadsbml.hyperpredictions(pkey,inputdata,host,port,username)
      print(res)
 
+Once you have executed hypertraining - the output will be the pkey (or AlgoKey) use this this AlgoKey to as input into hyperpredictioncustom and specify the algorithm and season you want to use for hyperpredictions.
+
 .. code-block::
 
    def hyperpredictioncustom(pkey,host,port,inputdata,username,algoname,season):
     res=maadsbml.hyperpredictions(pkey,inputdata,host,port,username,algoname,season)
     print(res)
+
+Use the AlgoKey to find details on the algorithm.
 
 .. code-block::
 
