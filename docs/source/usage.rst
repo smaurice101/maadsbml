@@ -43,7 +43,7 @@ ARM64 container for MAC is here: docker pull maadsdocker/maads-batch-automl-otic
 
 .. code-block:: console
 
-   (.venv) $ pip install maadsbml
+   pip install maadsbml
 
 Creating recipes
 ----------------
