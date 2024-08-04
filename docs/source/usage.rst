@@ -104,7 +104,7 @@ MAADSBML Folder Explanation
 
    * - **MAADSBML Folder**
      - **Description**
-   * - \{YOUR LOCAL FOLDER PATH\}/csvuploads
+   * - csvuploads
      – THIS IS WHERE YOU WRITE YOUR OWN FILE FOR PROCESSING
 
 .. code-block:: console
