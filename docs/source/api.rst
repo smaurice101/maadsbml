@@ -21,7 +21,11 @@ This library allows users to harness the power of agent-based computing using hu
 
 **Installation**
    - At the command prompt write:
-     **pip install maadsbml**
+
+.. code-block::
+   
+   pip install maadsbml
+
      - This assumes you have [Downloaded Python](https://www.python.org/downloads/) and installed it on your computer.  
 	 - You will also need to pull the MAADSBML Docker container:  **maadsdocker/maads-batch-automl-otics**
 
