@@ -80,3 +80,46 @@ MAADSBML Jupyter Notebook Explained
           #   break   
       return jsonalgostr
 
+.. code-block::
+   :emphasize-lines: 1
+
+# This is the MAIN ML Training function
+def hypertraining(host,port,filename,dependentvariable,removeoutliers,hasseasonality,deepanalysis,company):
+
+  #host,port,
+  #filename= raw data file in csv format - Note this file is stored on your host machine the DOCKER container needs to be mapped to this volume using -v
+  #dependentvariable= dependent variable name - this is the column name in the csv file
+  # the file should have a Date column in the format Month/Day/Year
+  #username= you can specify a username
+  #mode=0
+  #timeout=180 - you can modify this in seconds if your data file is large
+  #company= change this to the name of your company
+  #removeoutliers= specify 1 or 0, 1=remove outliers, 0 do not remove outliers,
+  #hasseasonality= specify 1 or 0 to indicate date is affected by seasonaility - 1 = seasonality, 0 = no seasonality,
+  #summer= specify the summer months ie. '6,7,8', or set to -1 for no summer
+  #winter= specify winter months i.e. '11,12,1,2', or -1 for no winter
+  #shoulder= specify shoulder months i.e. '3,4,5,9,10', or -1 for no shoulder season
+  #trainingpercentage= specify training percentage i.e. 70, the value represents a percentage to split training and test
+  #shuffle= specify 1 or 0 to shuffle the data, 1= shuffle, 0 = no shuffle
+  #deepanalysis= specify 1 or 0, 1=deepanalysis, note this will run through deeper algorithms but will take longer, 0 = no deep analysis, this will
+  #password='123', - leave as is
+  #email='support@otics.ca', - leave as is
+  #usereverseproxy=0, - leave as is
+  #microserviceid='', leave as is
+  #maadstoken='123' leave as is
+  summer='6,7,8'
+  winter='11,12,1,2'
+  shoulder='3,4,5,9,10'
+  #shoulder='-1'
+  trainingpercentage=75
+  shuffle=1
+  res=maadsbml.hypertraining(host,port,filename,dependentvariable,removeoutliers,hasseasonality,summer,winter,shoulder,trainingpercentage,shuffle,deepanalysis,'admin',1200,company)
+  jres = json.loads(res)
+
+  if jres.get('BrokenPipe') != None: # check if the hypertraining function experienced a brokenpipe - if so wait 
+        try:
+          res=readifbrokenpipe(jres,hasseasonality)
+        except Exception as e:
+          print(e)  
+           
+  print(res)
