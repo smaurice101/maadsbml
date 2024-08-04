@@ -6,11 +6,28 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use MAADSBML, first install docker engine in your computer:
 
+Setup
+1. You will need to have Linux OS installed
+• In Windows –you can install WSL (windows subsystem for Linux)
+• In Mac –Use Terminal
+
+Or get a VM running with Linux Ubuntu installed
+
+2. Install Docker:
+You can install Docker Desktop (Windows/Mac)
+Or in linux run: sudoapt install docker.io
+
+3. Pull the maadsbmldocker container:
+AMD64 container for Windows/Linux is here: docker pull maadsdocker/maads-batch-automl-otics
+
+ARM64 container for MAC is here: docker pull maadsdocker/maads-batch-automl-otics-arm64
+
+4. Install the MAADSBML Python library:
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install maadsbml
 
 Creating recipes
 ----------------
