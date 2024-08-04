@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'MAADSBML'
+copyright = '2024, Otics Advanced Analytics Incorporated'
+author = 'Sebastian Maurice'
 
 release = '0.1'
 version = '0.1.0'
