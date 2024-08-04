@@ -55,8 +55,28 @@ Or get a VM running with Linux Ubuntu installed
 Running the MAADSBML Docker Container
 -------------------------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Step 1: Create Local Folders on your local machine:
+
+.. code-block:: console
+
+   a. {YOUR LOCAL FOLDER PATH}/csvuploads
+
+   b. {YOUR LOCAL FOLDER PATH}/pdfreports
+
+   c. {YOUR LOCAL FOLDER PATH}/autofeatures
+
+   d. {YOUR LOCAL FOLDER PATH}/outliers
+
+   e. {YOUR LOCAL FOLDER PATH}/sqlloads
+
+   f. {YOUR LOCAL FOLDER PATH}/networktemp
+
+   g. {YOUR LOCAL FOLDER PATH}/networks
+
+   h. {YOUR LOCAL FOLDER PATH}/exception
+
+   i. {YOUR LOCAL FOLDER PATH}/staging
+
 
 .. autofunction:: lumache.get_random_ingredients
 
