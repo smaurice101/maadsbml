@@ -1,4 +1,4 @@
-Usage
+MAADSBML Usage
 =====
 
 .. _installation:
