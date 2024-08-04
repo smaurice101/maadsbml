@@ -97,6 +97,32 @@ Step 1: Create Local Folders on your local machine:
    will be stored ONLY in the docker container and NOT ACCESSIBLE outside of the container.  If you STOP the container **ALL YOUR MAADSBML OUTPUT DATA WILL BE 
    LOST**.
 
+MAADSBML Folder explanation
+----------------
+
+.. list-table::
+
+   * - **MAADSBML Folder**
+     - **Description**
+   * - {YOUR LOCAL FOLDER PATH}/csvuploads
+     – THIS IS WHERE YOU WRITE YOUR OWN FILE FOR PROCESSING
+   * - {YOUR LOCAL FOLDER PATH}/pdfreports
+     - THIS IS WHERE YOU WILL FIND THE MAADSBML PDF REPORT
+   * - {YOUR LOCAL FOLDER PATH}/autofeatures
+     - THIS IS WHERE YOU WILL FIND THE AUTOFEATURES
+   * - {YOUR LOCAL FOLDER PATH}/outliers 
+     – THIS IS WHERE YOU WILL FIND OUTLIERS
+   * - {YOUR LOCAL FOLDER PATH}/sqlloads
+     - THIS IS A SYSTEM FOLDER
+   * - {YOUR LOCAL FOLDER PATH}/networktemp
+     – THIS IS A SYSTEM FOLDER
+   * - {YOUR LOCAL FOLDER PATH}/networks 
+     – THIS IS WHERE THE ALGORITHMS ARE STORED
+   * - {YOUR LOCAL FOLDER PATH}/exception 
+     – THIS IS THE JSON FILE FOR THE ALGORITHM OUTPUT
+   * - {YOUR LOCAL FOLDER PATH}/staging 
+     – THIS IS A SYSTEM FOLDER
+
 .. code-block:: console
    
    docker run -d -v {YOUR LOCAL FOLDER PATH}/csvuploads:/maads/agentfilesdocker/dist/maadsweb/csvuploads:z -v {YOUR LOCAL FOLDER 
