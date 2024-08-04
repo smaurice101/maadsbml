@@ -77,6 +77,8 @@ Step 1: Create Local Folders on your local machine:
 
    i. {YOUR LOCAL FOLDER PATH}/staging
 
+{YOUR LOCAL FOLDER PATH} is the root folder path on your local machine: i.e. c:/maadsbml
+
 
 .. autofunction:: lumache.get_random_ingredients
 
