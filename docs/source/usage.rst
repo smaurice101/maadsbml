@@ -115,7 +115,25 @@ Docker run parameters explained:
      - port forwarding. For example, -p 5595:5595  means to forward your HOST port 5595 to the CONTAINER port 5595.  Left-hand side of the colon is the HOST port, 
        and right hand side of the colon is the container port: HOST:CONTAINER
    * - \--env
-     - this is docker's environment variable setting.
+     - this is docker's environment variable setting
+   * - TRAININGPORT
+     - this is the port that MAADSBML listens on for training on your dataset
+   * - PREDICTIONPORT
+     - this is the port that MAADSBML listens on for predictions after you have trained an algorithm on your dataset
+   * - ABORTPORT
+     - this is the port that MAADSBML listens on for ABORTING the training run.
+   * - COMPANYNAME
+     - You can specify your company name.  This will appear on the MAADSBML pdf report output.
+   * - MAXRUNTIME
+     - You can specify the maximum number of minutes to train on your dataset before MAADSBML aborts.
+   * - ACCEL
+     - This is useful for training on VERY LARGE datasets.  Set this to 1 if training on very large datasets (200K+ rows), otherwise leave at 0.
+   * - MAINHOST
+     - This is the IP Address MAADSBML will listen on for connections.
+
+.. important::
+
+   Port forwarding is needed to access MAADSBML container from Jupyter notebook or any other exteral application.  MAADSBML is REST API compliant.
 
 .. autoexception:: lumache.InvalidKindError
 
