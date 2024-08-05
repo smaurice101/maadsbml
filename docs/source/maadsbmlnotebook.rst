@@ -191,6 +191,8 @@ Here is the output from the hypertraining function.
    * - BESTALGOWEIGHTED-ALLSEASON
      - Best weighted algorithm.
 
+Once you have executed hypertraining - the output will be the pkey (or AlgoKey) use this this AlgoKey to as input into hyperprediction.
+
 .. code-block::
 
    def hyperprediction(pkey,host,port,inputdata,username):
