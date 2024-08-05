@@ -9,7 +9,7 @@ MAADSBML is a powerful AutoML technology that can analyse numeric data sets and 
 
    MAADSBML (MAADS=Multi-Agent Accelerator for Data Science) runs in a Docker Container for both MAC/Linux and Windows/Linux users.
 
-   Docker Container for MAC/Linux is here: `Windows/Linux: <https://hub.docker.com/r/maadsdocker/maads-batch-automl-otics-arm64>`_.  
+   Docker Container for MAC/Linux is here: `MAC/Linux: <https://hub.docker.com/r/maadsdocker/maads-batch-automl-otics-arm64>`_.  
 
    Docker Container for Windows/Linux is here: `Windows/Linux: <https://hub.docker.com/r/maadsdocker/maads-batch-automl-otics>`_.  
    
