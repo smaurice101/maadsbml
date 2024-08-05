@@ -200,7 +200,10 @@ Once you have executed hypertraining - the output will be the pkey (or AlgoKey) 
      res=maadsbml.hyperpredictions(pkey,inputdata,host,port,username)
      print(res)
 
-Once you have executed hypertraining - the output will be the pkey (or AlgoKey) use this this AlgoKey to as input into hyperpredictioncustom and specify the algorithm and season you want to use for hyperpredictions.
+.. important::
+
+   Once you have executed hypertraining - the output will be the pkey (or **AlgoKey**) use this this AlgoKey to as input into hyperpredictioncustom and specify 
+   the algorithm and season you want to use for hyperpredictions.
 
 .. code-block::
 
@@ -208,7 +211,7 @@ Once you have executed hypertraining - the output will be the pkey (or AlgoKey) 
     res=maadsbml.hyperpredictions(pkey,inputdata,host,port,username,algoname,season)
     print(res)
 
-Use the AlgoKey to find details on the algorithm.
+Use the **AlgoKey** to find details on the algorithm.
 
 .. code-block::
 
