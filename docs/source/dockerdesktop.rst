@@ -10,5 +10,7 @@ Click APPLY and RESTART
 
 .. figure:: dockerdesktop.png
 
+.. figure:: dockerdesktop2.png
+
    
 
