@@ -12,7 +12,7 @@ It will automatically hypertune the parameters of the linear and non-linear algo
 
 .. list-table::
 
-   * - Algorithm
+   * - **Algorithm**
    * - Linear Regression
    * - Adaboosting
    * - Neural networks
