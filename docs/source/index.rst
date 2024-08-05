@@ -7,7 +7,10 @@ MAADSBML is a powerful AutoML technology that can analyse numeric data sets and 
 
 .. note::
 
-   MAADSBML runs in a Docker Container for both MAC/Linux and Windows/Linux users.
+   MAADSBML (MAADS=Multi-Agent Accelerator for Data Science) runs in a Docker Container for both MAC/Linux and Windows/Linux users and accessed using a REST API 
+   using the MAADSBML Python Library.  
+
+   
 
 Contents
 --------
