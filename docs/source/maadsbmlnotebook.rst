@@ -226,6 +226,47 @@ Once you have executed hypertraining - the output will be the AlgoKey (or pkey) 
     res=maadsbml.hyperpredictions(pkey,inputdata,host,port,username,algoname,season)
     print(res)
 
+Here is the output from the hyperprediction or hyperpredictioncustom functions:
+
+.. code-block::
+
+   {"hyperprediction":45.14,"AlgoKey":"admin_stockdata_csv","Season":"allseason","Algorithm":"RidgeRegression","Dependent 
+   Variable":"close","Fields":"Date,Open,High,Low,Volume","Trained Model Accuracy":"0.996","Pickle Files":"/maads/agentfilesdocker/networks/Alberta-Electric- 
+   System-Operator_AESO)_ADMIN_STOCKDATA_CSVALLSEASON_AG1_4_RidgeRegression_normal_1.00000000_946_.pkl, /maads/agentfilesdocker/networks/Alberta-Electric-System- 
+   Operator_AESO)_ADMIN_STOCKDATA_CSVALLSEASON_AG1_4_RidgeRegression_normal_1.00000000_946_scalerx_.pkl, /maads/agentfilesdocker/networks/Alberta-Electric-System- 
+   Operator_AESO)_ADMIN_STOCKDATA_CSVALLSEASON_AG1_4_RidgeRegression_normal_1.00000000_946_scalery_.pkl","CreatedOn":"2024-04-25, 
+   00:29:27","InputData":"5/21/2013,52.650002,83.330002,2.120003,2674600","MicroService":"PREDICTIONSERVICE","Host":"127.0.0.1","Port":5495}
+
+.. list-table::
+
+   * - **JSON Field**
+     - **JSON Value**
+   * - hyperprediction
+     - The prediction.
+   * - AlgoKey
+     - The AlgoKey
+   * - AlgoKey
+     - The AlgoKey
+   * - AlgoKey
+     - The AlgoKey
+   * - AlgoKey
+     - The AlgoKey
+   * - AlgoKey
+     - The AlgoKey
+   * - AlgoKey
+     - The AlgoKey
+   * - AlgoKey
+     - The AlgoKey
+   * - AlgoKey
+     - The AlgoKey
+   * - AlgoKey
+     - The AlgoKey
+   * - AlgoKey
+     - The AlgoKey
+   * - AlgoKey
+     - The AlgoKey
+
+
 Use the **AlgoKey** to find details on the algorithm.
 
 .. code-block::
@@ -234,7 +275,3 @@ Use the **AlgoKey** to find details on the algorithm.
      res=maadsbml.algodescription(host,port,pk)
      print(res)
 
-
-
-{"hyperprediction":45.14,"AlgoKey":"admin_stockdata_csv","Season":"allseason","Algorithm":"RidgeRegression","Dependent Variable":"close","Fields":"Date,Open,High,Low,Volume","Trained Model Accuracy":"0.996","Pickle Files":"/maads/agentfilesdocker/networks/Alberta-Electric-System-Operator_AESO)_ADMIN_STOCKDATA_CSVALLSEASON_AG1_4_RidgeRegression_normal_1.00000000_946_.pkl, /maads/agentfilesdocker/networks/Alberta-Electric-System-Operator_AESO)_ADMIN_STOCKDATA_CSVALLSEASON_AG1_4_RidgeRegression_normal_1.00000000_946_scalerx_.pkl, /maads/agentfilesdocker/networks/Alberta-Electric-System-Operator_AESO)_ADMIN_STOCKDATA_CSVALLSEASON_AG1_4_RidgeRegression_normal_1.00000000_946_scalery_.pkl","CreatedOn":"2024-04-25, 00:29:27","InputData":"5/21/2013,52.650002,83.330002,2.120003,2674600","MicroService":"PREDICTIONSERVICE","Host":"127.0.0.1","Port":5495}
-{"hyperprediction":[0.457,0.543],"AlgoKey":"admin_creditcarddefaults_csv","Season":"allseason","Algorithm":"VotingClassifier_rfclassifier","Dependent Variable":"Defaultscore","Fields":"Date,amountofcredit,Gender,Education,MaritalStatus,Age,LastPayment","Trained Model Accuracy":"0.705","Pickle Files":"/maads/agentfilesdocker/networks/Alberta-Electric-System-Operator_AESO)_ADMIN_CREDITCARDDEFAULTS_CSVALLSEASON_AG1_4_VotingClassifier_rfclassifier_normal_948_ensemble_.pkl, /maads/agentfilesdocker/networks/Alberta-Electric-System-Operator_AESO)_ADMIN_CREDITCARDDEFAULTS_CSVALLSEASON_AG1_4_VotingClassifier_rfclassifier_normal_948_ensemble_scalerx_.pkl, ","CreatedOn":"2024-04-25, 00:29:27","InputData":"11/24/2013,120000.0,2.0,2.0,2.0,39.0,0.0","MicroService":"PREDICTIONSERVICE","Host":"127.0.0.1","Port":5495}
