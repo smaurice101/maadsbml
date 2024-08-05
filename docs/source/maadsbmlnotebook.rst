@@ -245,27 +245,28 @@ Here is the output from the hyperprediction or hyperpredictioncustom functions:
      - The prediction.
    * - AlgoKey
      - The AlgoKey
-   * - AlgoKey
+   * - Season
      - The AlgoKey
-   * - AlgoKey
+   * - Algorithm
+     - This is the BEST algorithm determined by MAADSBML.
+   * - Dependent Variable
      - The AlgoKey
-   * - AlgoKey
-     - The AlgoKey
-   * - AlgoKey
-     - The AlgoKey
-   * - AlgoKey
-     - The AlgoKey
-   * - AlgoKey
-     - The AlgoKey
-   * - AlgoKey
-     - The AlgoKey
-   * - AlgoKey
-     - The AlgoKey
-   * - AlgoKey
-     - The AlgoKey
-   * - AlgoKey
-     - The AlgoKey
-
+   * - Fields
+     - These are the independent variables.
+   * - Trained Model Accuracy
+     - MAPE value for the trained algorithm.
+   * - Pickle Files
+     - The Python pickle files for the algorithms and standardization.
+   * - CreatedOn
+     - The date and time prediction was generated.
+   * - InputData
+     - The input data used for the predictions.
+   * - MicroService
+     - microservice.
+   * - Host
+     - The IP address of MAADSBML
+   * - Port
+     - The prediction port.
 
 Use the **AlgoKey** to find details on the algorithm.
 
