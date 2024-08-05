@@ -64,6 +64,10 @@ Checking if docker is properly installed do:
 
    pip install maadsbml
 
+.. note-block:: 
+
+   Furthe Setup and Configurations can be found here: `MAADSBML Setup and Configurations: <https://github.com/smaurice101/raspberrypi/tree/main/maadsbml>`_
+
 Running the MAADSBML Docker Container
 -------------------------------
 
