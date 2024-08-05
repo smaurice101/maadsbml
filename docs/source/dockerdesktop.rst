@@ -14,5 +14,8 @@ Click APPLY and RESTART
 
 .. figure:: dockerdesktop3.png
 
-   
+If successfull, you will see the ports section filled.   
+
+.. figure:: dockerdesktop3.png
+
 
