@@ -160,7 +160,36 @@ Here is the output from the hypertraining function.
      - Path where the PDF report is saved.
    * - Hasseasonality
      - Yes for seasonlity, No for no seasonality.
-
+   * - Deep Analysis
+     - Yes for deepanalysis, No for no deep analysis.
+   * - Shuffled
+     - Yes for shuffled, No for no shuffling.  Shuffling, shuffles the training datatset.
+   * - Outliers Removed
+     - Yes for outliers removed, No for no outliers removed.
+   * - Generated On
+     - UTC time when training completed.
+   * - Timezone
+     - UTC timezone.
+   * - Username
+     - username.
+   * - Dependentvariable
+     - Dependent variable in the ML model.
+   * - Filename
+     - Training data filename used.
+   * - Host
+     - Host IP for maadsbml.
+   * - Port
+     - Port for Maadsbml.
+   * - Algojson
+     - Path for the algorithm JSON.
+   * - MainSortedAlgosInfoWeighted
+     - Description.
+   * - BESTALGO-ALLSEASON
+     - Best algorithm.
+   * - MainSortedAlgos-Weighted-Allseason
+     - All the main algorithms.
+   * - BESTALGOWEIGHTED-ALLSEASON
+     - Best weighted algorithm.
 
 .. code-block::
 
