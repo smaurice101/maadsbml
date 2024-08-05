@@ -27,6 +27,7 @@ Contents
 .. toctree::
 
    usage
+   dockerdesktop
    api
    maadsbmlnotebook
    pdf
