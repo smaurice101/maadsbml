@@ -12,7 +12,7 @@ To process your own data file simply drop it in your local folder: **csvuploads*
  
    • You MUST have the MAADSBML docker container running
 
-   • The file must be CSV (comma separated values)
+   • The file must be CSV (comma separated values).  `Example CSVs here: <https://github.com/smaurice101/raspberrypi/tree/main/maadsbml>`_
 
    • You MUST store your CSV file in your LOCAL **csvuploads** folder
 
