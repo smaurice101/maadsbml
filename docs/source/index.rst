@@ -18,3 +18,4 @@ Contents
    api
    maadsbmlnotebook
    pdf
+   algos
