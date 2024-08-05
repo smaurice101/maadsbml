@@ -66,7 +66,7 @@ Checking if docker is properly installed do:
 
 .. note:: 
 
-   Furthe Setup and Configurations can be found here: `MAADSBML Setup and Configurations: <https://github.com/smaurice101/raspberrypi/tree/main/maadsbml>`_
+   Furthe Setup and Configurations can be found here: `MAADSBML Setup and Configurations <https://github.com/smaurice101/raspberrypi/tree/main/maadsbml>`_
 
 Running the MAADSBML Docker Container
 -------------------------------
