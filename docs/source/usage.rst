@@ -189,5 +189,5 @@ MAADSBML Docker Run Parameters Explained
 Go Inside the Container
 --------------------------
 
-.. figure:: 
+.. figure:: dockerdesktop5.png
 
