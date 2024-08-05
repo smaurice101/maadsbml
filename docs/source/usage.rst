@@ -186,8 +186,13 @@ MAADSBML Docker Run Parameters Explained
 
    Port forwarding is needed to access MAADSBML container from Jupyter notebook or any other exteral application.  MAADSBML is REST API compliant.
 
-Go Inside the Container
+If Docker Successfully Setup
 --------------------------
 
 .. figure:: dockerdesktop5.png
+
+Go Inside the Container
+--------------------------
+
+.. figure:: dockerdesktop6.png
 
