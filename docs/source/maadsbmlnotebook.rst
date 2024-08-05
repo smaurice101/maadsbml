@@ -130,6 +130,20 @@ MAADSBML Jupyter Notebook Explained
            
     print(res)
 
+Call the **hypertraining** to train on your data. 
+
+.. code-block::
+   :emphasize-lines: 1,2,8
+   
+   filename='stockdata.csv'
+   dependentvariable='close'
+   removeoutliers=0
+   hasseasonality=0
+   deepanalysis=0
+   company='Your company'
+   
+   hypertraining(host,port,filename,dependentvariable,removeoutliers,hasseasonality,deepanalysis,company)
+
 Here is the output from the hypertraining function.
 
 .. code-block::
@@ -191,7 +205,7 @@ Here is the output from the hypertraining function.
    * - BESTALGOWEIGHTED-ALLSEASON
      - Best weighted algorithm.
 
-Once you have executed hypertraining - the output will be the pkey (or AlgoKey) use this this AlgoKey to as input into hyperprediction.
+Once you have executed hypertraining - the output will be the AlgoKey (or pkey) use this this AlgoKey to as input into hyperprediction.
 
 .. code-block::
 
@@ -207,6 +221,7 @@ Once you have executed hypertraining - the output will be the pkey (or AlgoKey) 
 
 .. code-block::
 
+   # This is the main function to perform predictions from the trained algo.
    def hyperpredictioncustom(pkey,host,port,inputdata,username,algoname,season):
     res=maadsbml.hyperpredictions(pkey,inputdata,host,port,username,algoname,season)
     print(res)
@@ -218,21 +233,6 @@ Use the **AlgoKey** to find details on the algorithm.
    def algoinfo(pk):
      res=maadsbml.algodescription(host,port,pk)
      print(res)
-
-Call the **hypertraining** to train on your data. 
-
-.. code-block::
-   :emphasize-lines: 9
-   
-   filename='stockdata.csv'
-   dependentvariable='close'
-
-   removeoutliers=0
-   hasseasonality=0
-   deepanalysis=0
-   company='Fiera Capital'
-   
-   hypertraining(host,port,filename,dependentvariable,removeoutliers,hasseasonality,deepanalysis,company)
 
 
 
