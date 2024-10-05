@@ -62,7 +62,7 @@ MAADSBML will also perform cross-validation to hypertune the parameters in the a
    * - XGboost
      - MAADSBML will apply `XGBoost algorithm <https://xgboost.readthedocs.io/en/stable/index.html>`_ to your data.
    * - Theilsen Regressor
-     - 
+     - MAADSBML will apply `Theilsen regression <https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.TheilSenRegressor.html>`_ to your data.
    * - Other special algorithms
      - 
 
