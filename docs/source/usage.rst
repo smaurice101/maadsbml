@@ -29,7 +29,7 @@ Once wsl is installed then update the Linux distro:
 
 Or get a VM running with Linux Ubuntu installed
 
-STEP 2: Install dOCKER
+STEP 2: Install Docker
 """"""""""
 
 Install Docker: You can install Docker Desktop (Windows/Mac) Or in linux run: 
