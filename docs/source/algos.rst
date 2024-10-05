@@ -31,8 +31,10 @@ MAADSBML will also perform cross-validation to hypertune the parameters in the a
        and `Adaboostng classifier <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html>`_ to your data.
    * - Neural networks
      - MAADSBML will apply the `neural network <https://scikit-learn.org/stable/modules/neural_networks_supervised.html>`_ algorithm to your data.
-   * - SVM/SVC
-     - 
+   * - SVR/SVC
+     - MAADSBML will apply `SVR algorithm <https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html>`_ to your data
+
+       and `SVC algorithm <https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html>`_ to your data.
    * - Logistic
      - For classification models, MAADS will apply several 
 
