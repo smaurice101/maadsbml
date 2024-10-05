@@ -58,7 +58,7 @@ MAADSBML will also perform cross-validation to hypertune the parameters in the a
 
        and `Gaussian process classifiers <https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessClassifier.html>`_
    * - Ensemble
-     - 
+     - MAADSBML will also apply advanced `ensemble models <https://scikit-learn.org/stable//api/sklearn.ensemble.html>`_. 
    * - XGboost
      - 
    * - Theilsen Regressor
