@@ -60,7 +60,7 @@ MAADSBML will also perform cross-validation to hypertune the parameters in the a
    * - Ensemble
      - MAADSBML will also apply advanced `ensemble models <https://scikit-learn.org/stable//api/sklearn.ensemble.html>`_. 
    * - XGboost
-     - 
+     - MAADSBML will apply `XGBoost algorithm <https://xgboost.readthedocs.io/en/stable/index.html>`_ to your data.
    * - Theilsen Regressor
      - 
    * - Other special algorithms
