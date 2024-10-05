@@ -7,13 +7,22 @@ It will automatically hypertune the parameters of the linear and non-linear algo
 
 .. important::
 
-   MAADSBML uses a multi-agent framework to find the optimal algorithm for the data.  This is a powerful approach find the optimal algorithm in minutes, when it can 
-   normally take days and weeks.
+   MAADSBML uses a multi-agent framework to find the optimal algorithm for the data.  This is a powerful approach find the optimal algorithm in minutes, when it 
+   can normally take days and weeks.
+
+MAADSBML Algorithms
+---------------------
+
+MAADSBML will automatically apply the algorithms below to your data.  It will know which algorithms to apply to your data based on whether your dependent variable is continuous or discreet.
 
 .. list-table::
 
    * - **Algorithm**
+   * - **Explanation**
    * - Linear Regression
+     - This is the standard `linear regression algorithm <https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html>`_
+
+       using Ordinary Least Squares (OLS).
    * - Adaboosting
    * - Neural networks
    * - SVM/SVC
