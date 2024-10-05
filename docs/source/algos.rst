@@ -54,7 +54,7 @@ MAADSBML will also perform cross-validation to hypertune the parameters in the a
 
        to your data.
    * - Gaussian
-     - MAADSBML will apply `Gaussian process <https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessRegressor.html#sklearn.gaussian_process.GaussianProcessRegressor>`_ regression
+     - MAADSBML will apply `Gaussian process regression <https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessRegressor.html#sklearn.gaussian_process.GaussianProcessRegressor>`_
 
        and `Gaussian process classifiers <https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessClassifier.html>`_
    * - Ensemble
