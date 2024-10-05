@@ -24,7 +24,9 @@ MAADSBML will automatically apply the algorithms below to your data.  It will kn
 
        using Ordinary Least Squares (OLS).
    * - Adaboosting
-     - 
+     - MAADSBML will apply the `Adaboosting regressor <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostRegressor.html>`_
+
+       and `Adaboostng classifier <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html>`_ to your data.
    * - Neural networks
      - 
    * - SVM/SVC
