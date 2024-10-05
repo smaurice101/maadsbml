@@ -64,7 +64,11 @@ MAADSBML will also perform cross-validation to hypertune the parameters in the a
    * - Theilsen Regressor
      - MAADSBML will apply `Theilsen regression <https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.TheilSenRegressor.html>`_ to your data.
    * - Other special algorithms
-     - 
+     - Other specialized algorithms are chosen by MAADSBML 
+
+       automatically to ensure users get the BEST
+
+       algorithm that BEST fits their data.
 
   
   
