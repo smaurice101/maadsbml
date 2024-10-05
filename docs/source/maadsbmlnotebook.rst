@@ -171,7 +171,12 @@ Here is the output from the hypertraining function.
    * - AlgoKey
      - Key for your optimal algorithm.  This is main key.
    * - AlgoDetails
-     - Details about the algorithms. For example, RidgeRegression,0.996, allseason, means RidgeRegression has a MAPE (Mean Absolute Percentage Error) of 0.996 
+     - Details about the algorithms. For example, 
+
+       RidgeRegression,0.996, allseason, means RidgeRegression 
+
+       has a MAPE (Mean Absolute Percentage Error) of 0.996 
+       
        with allseason (seasonality ignored).
    * - PDF
      - Path where the PDF report is saved.
@@ -180,7 +185,9 @@ Here is the output from the hypertraining function.
    * - Deep Analysis
      - Yes for deepanalysis, No for no deep analysis.
    * - Shuffled
-     - Yes for shuffled, No for no shuffling.  Shuffling, shuffles the training datatset.
+     - Yes for shuffled, No for no shuffling.  Shuffling, 
+
+       shuffles the training datatset.
    * - Outliers Removed
      - Yes for outliers removed, No for no outliers removed.
    * - Generated On
