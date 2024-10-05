@@ -128,6 +128,11 @@ MAADSBML Folder Explanation
    * - staging 
      - THIS IS A SYSTEM FOLDER
 
+MAADSBML Docker Run Command
+----------------
+
+You need to configure and run this command to start the MAADSBML contaner solution.
+
 .. code-block:: console
    
    docker run -d -v {YOUR LOCAL FOLDER PATH}/csvuploads:/maads/agentfilesdocker/dist/maadsweb/csvuploads:z \ 
