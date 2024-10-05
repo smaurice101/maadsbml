@@ -133,7 +133,6 @@ MAADSBML Folder Explanation
    docker run -d -v {YOUR LOCAL FOLDER PATH}/csvuploads:/maads/agentfilesdocker/dist/maadsweb/csvuploads:z \ 
    
    -v {YOUR LOCAL FOLDER PATH}/pdfreports:/maads/agentfilesdocker/dist/maadsweb/pdfreports:z \
-   
    -v {YOUR LOCAL FOLDER PATH}/autofeatures:/maads/agentfilesdocker/dist/maadsweb/autofeatures:z \
    
    -v {YOUR LOCAL FOLDER PATH}/outliers:/maads/agentfilesdocker/dist/maadsweb/outliers:z \
