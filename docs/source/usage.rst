@@ -8,9 +8,10 @@ Installation
 
 To use MAADSBML, first install docker engine in your computer:
 
-Setup
+STEP 1: Install Linux
+""""""""""
 
-1. You will need to have Linux OS installed
+You will need to have Linux OS installed
 
 • In Windows –you can install WSL (windows subsystem for Linux).  Open Powershell or command prompt in Administrator mode and type:
 
@@ -28,7 +29,10 @@ Once wsl is installed then update the Linux distro:
 
 Or get a VM running with Linux Ubuntu installed
 
-2. Install Docker: You can install Docker Desktop (Windows/Mac) Or in linux run: 
+STEP 2: Install dOCKER
+""""""""""
+
+Install Docker: You can install Docker Desktop (Windows/Mac) Or in linux run: 
 
 .. code-block:: console
    
@@ -46,19 +50,28 @@ Checking if docker is properly installed do:
    
    docker ps
 
-3. Pull the maadsbml docker container for Windows/Linux (AMD64):
+STEP 3: Pull MAADSBML Docker Container
+""""""""""
+
+Pull the maadsbml docker container for Windows/Linux (AMD64):
 
 .. code-block:: console
 
    docker pull maadsdocker/maads-batch-automl-otics
 
-3b. Pull the maadsbml docker container for MAC/Linux (ARM64):
+STEP 3b: Pull MAADSBML Docker Container (MAC/Linux Arm64)
+""""""""""
+
+Pull the maadsbml docker container for MAC/Linux (ARM64):
 
 .. code-block:: console
 
    docker pull maadsdocker/maads-batch-automl-otics-arm64
 
-4. Install the MAADSBML Python library:
+STEP 4: Install MAADSBML Python Library
+""""""""""
+
+Install the MAADSBML Python library:
 
 .. code-block:: console
 
@@ -71,7 +84,8 @@ Checking if docker is properly installed do:
 Running the MAADSBML Docker Container
 -------------------------------
 
-Step 1: Create Local Folders on your local machine:
+Step 1: Create Local Folders
+""""""""""""""""""""""""""
 
 .. code-block:: console
 
@@ -102,7 +116,7 @@ Step 1: Create Local Folders on your local machine:
    LOST**.
 
 MAADSBML Folder Explanation
-----------------
+""""""""""""""""""""""""
 
 .. list-table::
    :widths: 40 60
@@ -163,7 +177,7 @@ You need to configure and run this command to start the MAADSBML contaner soluti
    PATH}/csvuploads **:/maads/agentfilesdocker/dist/maadsweb/csvuploads:z**
 
 MAADSBML Docker Run Parameters Explained
-------------------------------
+""""""""""""""""""""""""""""
 
 .. list-table::
    :widths: 20 40
@@ -175,31 +189,52 @@ MAADSBML Docker Run Parameters Explained
    * - \-v
      - start of docker volume mapping
    * - \-p
-     - port forwarding. For example, -p 5595:5595  means to forward your HOST port 5595 to the CONTAINER port 5595.  
-       Left-hand side of the colon is the HOST port, and right hand side of the colon is the container port: HOST:CONTAINER
+     - port forwarding. For example, -p 5595:5595  means 
+
+       to forward your HOST port 5595 to the CONTAINER port 5595.  
+
+       Left-hand side of the colon is the HOST port, and right 
+
+       hand side of the colon is the container port: HOST:CONTAINER
    * - \--env
      - this is docker's environment variable setting
    * - TRAININGPORT
-     - this is the port that MAADSBML listens on for training on your dataset
+     - this is the port that MAADSBML listens on 
+
+       for training on your dataset
    * - PREDICTIONPORT
-     - this is the port that MAADSBML listens on for predictions after you have trained an algorithm on your dataset
+     - this is the port that MAADSBML listens on for 
+
+       predictions after you have trained an algorithm 
+
+       on your dataset
    * - ABORTPORT
-     - this is the port that MAADSBML listens on for ABORTING the training run.
+     - this is the port that MAADSBML listens on for 
+
+       ABORTING the training run.
    * - COMPANYNAME
-     - You can specify your company name.  This will appear on the MAADSBML pdf report output.
+     - You can specify your company name.  This will appear 
+
+       on the MAADSBML pdf report output.
    * - MAXRUNTIME
-     - You can specify the maximum number of minutes to train on your dataset before MAADSBML aborts.
+     - You can specify the maximum number of minutes 
+
+       to train on your dataset before MAADSBML aborts.
    * - ACCEL
-     - This is useful for training on VERY LARGE datasets.  Set this to 1 if training on very large datasets (200K+ rows), 
-        otherwise leave at 0.
+     - This is useful for training on VERY LARGE datasets.  
+
+       Set this to 1 if training on very large 
+
+       datasets (200K+ rows), otherwise leave at 0.
    * - MAINHOST
-     - This is the IP Address MAADSBML will listen on for connections.
+     - This is the IP Address MAADSBML will listen 
+ 
+       on for connections.
    * - maadsdocker/maads-batch-automl-otics
      - MAADSBML Docker container for Windows/Linux users
    * - maadsdocker/maads-batch-automl-otics-arm64
      - MAADSBML Docker container for MAC/Linux users
  
-
 .. important::
 
    Port forwarding is needed to access MAADSBML container from Jupyter notebook or any other exteral application.  MAADSBML is REST API compliant.
