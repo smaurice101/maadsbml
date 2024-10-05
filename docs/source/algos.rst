@@ -15,6 +15,8 @@ MAADSBML Algorithms
 
 MAADSBML will automatically apply the algorithms below to your data.  It will know which algorithms to apply to your data based on whether your dependent variable is continuous or discreet.
 
+MAADSBML will also perform cross-validation to hypertune the parameters in the algorithms, where applicable.
+
 .. list-table::
 
    * - **Algorithm**
@@ -28,13 +30,17 @@ MAADSBML will automatically apply the algorithms below to your data.  It will kn
 
        and `Adaboostng classifier <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html>`_ to your data.
    * - Neural networks
-     - 
+     - MAADSBML will apply the `neural network <https://scikit-learn.org/stable/modules/neural_networks_supervised.html>`_ algorithm to your data.
    * - SVM/SVC
      - 
    * - Logistic
-     - 
+     - For classification models, MAADS will apply several 
+
+       classification algorithm including `Logistic Regression <https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html>`_.
    * - Gradient boosting
-     - 
+     - MAADSBML will apply `gradient boosting regressor <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html>`_
+
+       and `gradient boosting classifier <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html>`_ to your data.
    * - Multiple layer perceptron
      - 
    * - Ridge regression
