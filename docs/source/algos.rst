@@ -50,7 +50,9 @@ MAADSBML will also perform cross-validation to hypertune the parameters in the a
 
        to your data.
    * - ARIMA
-     - 
+     - MAADSBML will apply the `ARIMA <https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html>`_ algorithm
+
+       to your data.
    * - Gaussian
      - 
    * - Ensemble
