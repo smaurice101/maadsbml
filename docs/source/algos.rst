@@ -46,7 +46,9 @@ MAADSBML will also perform cross-validation to hypertune the parameters in the a
 
        and `MLP classifier <https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html>`_ to your data.
    * - Ridge regression
-     - 
+     - MAADSBML will apply the `Ridge regression <https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html<`_ algorithm
+
+       to your data.
    * - ARIMA
      - 
    * - Gaussian
