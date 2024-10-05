@@ -18,24 +18,37 @@ MAADSBML will automatically apply the algorithms below to your data.  It will kn
 .. list-table::
 
    * - **Algorithm**
-   * - **Explanation**
+     - **Explanation**
    * - Linear Regression
      - This is the standard `linear regression algorithm <https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html>`_
 
        using Ordinary Least Squares (OLS).
    * - Adaboosting
+     - 
    * - Neural networks
+     - 
    * - SVM/SVC
+     - 
    * - Logistic
+     - 
    * - Gradient boosting
+     - 
    * - Multiple layer perceptron
+     - 
    * - Ridge regression
+     - 
    * - ARIMA
+     - 
    * - Gaussian
+     - 
    * - Ensemble
+     - 
    * - XGboost
+     - 
    * - Theilsen Regressor
+     - 
    * - Other special algorithms
+     - 
 
   
   
