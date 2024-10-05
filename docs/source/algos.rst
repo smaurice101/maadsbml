@@ -41,8 +41,10 @@ MAADSBML will also perform cross-validation to hypertune the parameters in the a
      - MAADSBML will apply `gradient boosting regressor <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html>`_
 
        and `gradient boosting classifier <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html>`_ to your data.
-   * - Multiple layer perceptron
-     - 
+   * - Multiple layer perceptron (MLP)
+     - MAADSBML will apply `MLP regressor <https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html>`_
+
+       and `MLP classifier <https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html>`_ to your data.
    * - Ridge regression
      - 
    * - ARIMA
