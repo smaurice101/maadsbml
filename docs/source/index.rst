@@ -34,3 +34,4 @@ Contents
    maadsbmlnotebook
    pdf
    algos
+   finddist
