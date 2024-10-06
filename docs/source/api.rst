@@ -44,6 +44,8 @@ This library allows users to harness the power of agent-based computing using hu
      Abort the training process.
    - **rundemo**
      To run canned demo of the system to see how it works.
+   - **finddistribution**
+     Finds the best distribution for your continuous data
 	 
 **First import the Python library.**
 
@@ -284,6 +286,33 @@ must be in the format: M/D/YYYY
         
 **Returns:** null
         
- 
+**6. maadsbml.finddistribution(filename,varname,dataarray=[],folderpath='',imgname='distimage',common=1,topdist=5)**
 
+Parameters:
+
+filename : string, required
+
+Filename containing the raw data. This must be a CSV file.
+varname : string, required
+
+Name of the variable for your data.
+dataarray : array_like, optional
+
+Numpy array. Rather than pass a filename, you can pass in an array.
+folderpath : string, optional
+
+Folder path to store the output data, and distribution image file.
+imgname : string, optional
+
+Name of the image and json data.
+common : int, optional
+
+If set to 1, this will apply common distributions to your data.
+
+If Set to 0, it will iterate through roughly 80 distributions.
+
+topdist : int, optional
+
+The number of the TOP distributions to print.
+Returns: status,dist dataframe,name of best distribution,all JSON data
        
