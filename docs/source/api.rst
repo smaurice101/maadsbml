@@ -1,5 +1,7 @@
-MAADSBML `Python Library API <https://pypi.org/project/maadsbml/>`_
+MAADSBML Python Library API
 ============================
+
+`MAADSBML Python Library API <https://pypi.org/project/maadsbml/>`_
 
 **Multi-Agent Accelerator for Data Science: Batch AutoML (MAADSBML)**
 
