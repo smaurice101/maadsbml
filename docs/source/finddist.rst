@@ -1,4 +1,4 @@
-Find The Best Distribution for Your Data
+Find The Best Distribution For Your Data
 =====================================
 
 MAADSBML has a powerful functionality to find the best distribution for your data.  Meaning, it will apply analyse your data and iterate through 
