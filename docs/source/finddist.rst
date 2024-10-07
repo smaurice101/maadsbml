@@ -54,9 +54,13 @@ The data files are also `here on GitHub <https://github.com/smaurice101/raspberr
 The output of the **finddist** function will with be:
 
 1. FOUR return variable:
+
    a. status: will indicate any ERROR success 
+
    b. dist: distribution dataframe
+
    c. bestdist: name of best distribution 
+
    d. alldata: comprehensive JSON data file
 
 2. Image of your distrubution curve mapped to your data
