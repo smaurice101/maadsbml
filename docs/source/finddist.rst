@@ -124,62 +124,61 @@ Outputs: Comprehensive JSON Data File
    **sumsquare_error** = **0.0081149046**:
 
 .. code-block:: JSON
-      
-      "bestdistribution": "norm",
+            
+      	"bestdistribution": "norm",
       	"shape": 0,
-      	"loc": 0.029,
-      	"scale": 1.497,
+      	"loc": 0.926,
+      	"scale": 10.372,
       	"summary": {
       		"sumsquare_error": {
-      			"norm": 0.0081149046,
-      			"gamma": 0.0082625558,
-      			"lognorm": 0.0087592562,
-      			"exponpow": 0.084470161,
-      			"cauchy": 0.1269541688,
-      			"rayleigh": 0.4482579119,
-      			"powerlaw": 0.8826028833
+      			"norm": 0.0001833218,
+      			"gamma": 0.0001842996,
+      			"lognorm": 0.0008286558,
+      			"cauchy": 0.0032124016,
+      			"rayleigh": 0.0093685066,
+      			"powerlaw": 0.0184203716,
+      			"uniform": 0.0187563468
       		},
       		"aic": {
-      			"norm": 806.08450877,
-      			"gamma": 804.6052961259,
-      			"lognorm": 801.9580285437,
-      			"exponpow": 1211.378442525,
-      			"cauchy": 657.8834702006,
-      			"rayleigh": 556.6037629452,
-      			"powerlaw": 505.8212509523
+      			"norm": 1080.7122808355,
+      			"gamma": 1082.5527638245,
+      			"lognorm": 1087.0229562595,
+      			"cauchy": 1009.413196322,
+      			"rayleigh": 913.1328108475,
+      			"powerlaw": 874.1536793632,
+      			"uniform": 864.8471332897
       		},
       		"bic": {
-      			"norm": 820.505189514,
-      			"gamma": 826.2363172418,
-      			"lognorm": 823.5890496596,
-      			"exponpow": 1233.0094636409,
-      			"cauchy": 672.3041509446,
-      			"rayleigh": 571.0244436891,
-      			"powerlaw": 527.4522720682
+      			"norm": 1095.1329615794,
+      			"gamma": 1104.1837849405,
+      			"lognorm": 1108.6539773755,
+      			"cauchy": 1023.833877066,
+      			"rayleigh": 927.5534915914,
+      			"powerlaw": 895.7847004791,
+      			"uniform": 879.2678140336
       		},
       		"ks_statistic": {
-      			"norm": 0.0062391598,
-      			"gamma": 0.0074117257,
-      			"lognorm": 0.0096569495,
-      			"exponpow": 0.0618710113,
-      			"cauchy": 0.0737015036,
-      			"rayleigh": 0.2312575944,
-      			"powerlaw": 0.3468426483
+      			"norm": 0.0055919778,
+      			"gamma": 0.0059054055,
+      			"lognorm": 0.0478349235,
+      			"cauchy": 0.0733773525,
+      			"rayleigh": 0.219349235,
+      			"powerlaw": 0.3142887917,
+      			"uniform": 0.2392847635
       		},
       		"ks_pvalue": {
-      			"norm": 0.8287219803,
-      			"gamma": 0.6392443451,
-      			"lognorm": 0.3066432281,
-      			"exponpow": 1.013247951e-33,
-      			"cauchy": 1.103071858e-47,
+      			"norm": 0.9115044119,
+      			"gamma": 0.8744437106,
+      			"lognorm": 2.527062593e-20,
+      			"cauchy": 2.869426062e-47,
       			"rayleigh": 0.0,
-      			"powerlaw": 0.0
+      			"powerlaw": 0.0,
+      			"uniform": 0.0
       		}
       	},
       	"filename": "",
       	"varname": "Sample Data",
-      	"folderpath": "C:/MAADS/Companies/firstgenesis/probability distribution",
+      	"folderpath": ".",
       	"distimagefilename": "bml.png",
       	"jsondatafilename": "bml.json",
-      	"isarray": 1
-      
+      	"isarray": 1      
