@@ -20,7 +20,7 @@ MAADSBML has a function called: **finddistribution**.  Refer to :ref:`MAADSBML P
 
 This is a powerful yet simple function to use.  With ONE-LINE of code, MAADSBML will find the best distribution for your data in seconds.
 
-Here are all the distributions it will analyse for your data, and choose the BEST one using the **sumsquare_error** method: see :ref:`Outputs: Comprehensive JSON Data File`
+Here are all the distributions it will analyse for your data, and choose the BEST one using the **sumsquare_error** method, see :ref:`Outputs: Comprehensive JSON Data File`
 
 .. important::
    The distribution with the lowest **sumsquare_error** is the BEST one.
