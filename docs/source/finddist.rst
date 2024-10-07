@@ -110,31 +110,40 @@ Outputs: Comprehensive JSON Data File
 
 .. code-block:: JSON
 
-      "summary": {
-         "sumsquare_error": {
-            "norm": 0.0060707897,
-            "gamma": 0.0062399082,
-            "lognorm": 0.0062541565
-         },
-         "aic": {
-            "norm": 799.3499379526,
-            "gamma": 807.6996897697,
-            "lognorm": 810.8941679832
-         },
-         "bic": {
-            "norm": 813.7706186966,
-            "gamma": 829.3307108856,
-            "lognorm": 832.5251890991
-         },
-         "ks_statistic": {
-            "norm": 0.0049688705,
-            "gamma": 0.0069457556,
-            "lognorm": 0.0060192457
-         },
-         "ks_pvalue": {
-            "norm": 0.9648710528,
-            "gamma": 0.717495452,
-            "lognorm": 0.8595061548
-         }
-      },
-
+   	"bestdistribution": "norm",
+   	"shape": 0,
+   	"loc": -0.014,
+   	"scale": 1.502,
+   	"summary": {
+   		"sumsquare_error": {
+   			"norm": 0.0060707897,
+   			"gamma": 0.0062399082,
+   			"lognorm": 0.0062541565
+   		},
+   		"aic": {
+   			"norm": 799.3499379526,
+   			"gamma": 807.6996897697,
+   			"lognorm": 810.8941679832
+   		},
+   		"bic": {
+   			"norm": 813.7706186966,
+   			"gamma": 829.3307108856,
+   			"lognorm": 832.5251890991
+   		},
+   		"ks_statistic": {
+   			"norm": 0.0049688705,
+   			"gamma": 0.0069457556,
+   			"lognorm": 0.0060192457
+   		},
+   		"ks_pvalue": {
+   			"norm": 0.9648710528,
+   			"gamma": 0.717495452,
+   			"lognorm": 0.8595061548
+   		}
+   	},
+   	"filename": "",
+   	"varname": "Sample Data",
+   	"folderpath": "C:/MAADS/Companies/firstgenesis/probability distribution",
+   	"distimagefilename": "bml.png",
+   	"jsondatafilename": "bml.json",
+   	"isarray": 1
