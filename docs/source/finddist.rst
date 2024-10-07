@@ -77,7 +77,7 @@ The data files are also `here on GitHub <https://github.com/smaurice101/raspberr
     # name of file
     imgname="bml"
 
-   # We will generate a random array for distributional analysis but we could comment this out and use the above files or any other data
+    # We will generate a random array for distributional analysis but we could comment this out and use the above files or any other data
     dataarr = genarray()
     varname="Sample Data"
     # here we are using 1 for FAST distribution analysis using the most common distributions
