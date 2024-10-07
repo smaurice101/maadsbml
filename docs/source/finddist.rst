@@ -64,15 +64,24 @@ The data files are also `here on GitHub <https://github.com/smaurice101/raspberr
         data = np.random.normal(mu, sigma, 100)
         return data
         
-    
+    # Example File 1
     filename="body_fat.csv"
+    # The variable for distributional analysis in body_fat.csv
     varname="%Fat"
+    # Example file 2
     filename="weight_height.csv"
+    # The variable for distributional analysis in weight_height.csv
     varname="Height"
+    # Folder path to save output
     folderpath='<specify path to local folder folder>'
+    # name of file
     imgname="bml"
+
+   # We will generate a random array for distributional analysis but we could comment this out and use the above files or any other data
     dataarr = genarray()
     varname="Sample Data"
+    # here we are using 1 for FAST distribution analysis using the most common distributions
+    # 7 to print the TOP 7 distributions in the image and JSON
     finddist("",varname,dataarr,folderpath,imgname,1,7)
 
 Outputs From finddistribution
