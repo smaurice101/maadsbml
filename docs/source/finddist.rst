@@ -93,7 +93,7 @@ Outputs: Four Returned Variables
 
    d. alldata: comprehensive JSON data file
 
-Outputs: Distibution Image
+Outputs: Distribution Image
 """""""""""""""""""""
 
 2. Image of your distribution curve mapped to your data, as shown below:
