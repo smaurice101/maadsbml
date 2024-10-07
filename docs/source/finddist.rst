@@ -20,7 +20,7 @@ MAADSBML has a function called: **finddistribution**.  Refer to :ref:`MAADSBML P
 
 This is a powerful yet simple function to use.  With ONE-LINE of code, MAADSBML will find the best distribution for your data in seconds.
 
-Here are all the distributions it will analyse for your data, and choose the BEST one using the **sumsquare_error** method.
+Here are all the distributions it will analyse for your data, and choose the BEST one using the **sumsquare_error** method: see :ref:`Outputs: Comprehensive JSON Data File`
 
 .. important::
    The distribution with the lowest **sumsquare_error** is the BEST one.
@@ -74,8 +74,14 @@ The data files are also `here on GitHub <https://github.com/smaurice101/raspberr
     dataarr = genarray()
     varname="Sample Data"
     finddist("",varname,dataarr,folderpath,imgname,1,3)
-   
+
+Outputs From finddistribution
+----------------------------
+
 The output of the **finddist** function will be:
+
+Outputs: Four Returned Variables
+"""""""""""""""""""""
 
 1. FOUR return variable:
 
@@ -87,10 +93,16 @@ The output of the **finddist** function will be:
 
    d. alldata: comprehensive JSON data file
 
+Outputs: Distibution Image
+"""""""""""""""""""""
+
 2. Image of your distribution curve mapped to your data, as shown below:
 
    .. figure:: dist1.png
       :scale: 50%
+
+Outputs: Comprehensive JSON Data File
+"""""""""""""""""""""
 
 3. JSON file (same as alldata): See `Output Here on GitHub <https://github.com/smaurice101/raspberrypi/blob/main/maadsbml/bml_data.json>`_
 
