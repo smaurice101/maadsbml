@@ -85,6 +85,7 @@ The output of the **finddist** function will be:
    .. figure:: dist1.png
       :scale: 50%
 
-3. JSON file (same as alldata)
- 
+3. JSON file (same as alldata): See `Output Here on GitHub <https://github.com/smaurice101/raspberrypi/blob/main/maadsbml/bml_data.json>`_
+
+
 
