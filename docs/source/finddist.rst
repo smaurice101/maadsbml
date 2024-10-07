@@ -67,9 +67,9 @@ The data files are also `here on GitHub <https://github.com/smaurice101/raspberr
     varname="Height"
     folderpath='<specify path to local folder folder>'
     imgname="bml"
-    dataarr = []
     dataarr = genarray()
-    finddist(filename,varname,dataarr,folderpath,imgname,1,3)
+    varname="Sample Data"
+    finddist("",varname,dataarr,folderpath,imgname,1,3)
    
 The output of the **finddist** function will be:
 
