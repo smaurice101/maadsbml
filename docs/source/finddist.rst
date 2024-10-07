@@ -96,7 +96,7 @@ Outputs: Four Returned Variables
 Outputs: Distribution Image
 """""""""""""""""""""
 
-2. Image of your distribution curve mapped to your data, as shown below (showing the TOP 7 distributions):
+2. Image of your distribution curve mapped to your data, as shown below (showing the TOP 7 BEST distributions):
 
    .. figure:: dist1.png
       :scale: 50%
@@ -106,7 +106,7 @@ Outputs: Comprehensive JSON Data File
 
 3. JSON file (same as alldata): See `Output Here on GitHub <https://github.com/smaurice101/raspberrypi/blob/main/maadsbml/bml_data.json>`_
 
-   A summary of the results is also contained in the JSON file.  Specifically,
+   A summary of the results is also contained in the JSON file.  Specifically, **norm** is the BEST distribution based on the lowest sumsquare_error=0.0081149046**:
 
 .. code-block:: JSON
       
