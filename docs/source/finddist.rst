@@ -63,7 +63,10 @@ The output of the **finddist** function will with be:
 
    d. alldata: comprehensive JSON data file
 
-2. Image of your distrubution curve mapped to your data
+2. Image of your distribution curve mapped to your data, as shown below:
+
+   .. figure:: dist1.png
+      :scale: 50%
 
 3. JSON file (same as alldata)
  
