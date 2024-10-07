@@ -20,7 +20,11 @@ MAADSBML has a function called: **finddistribution**.  Refer to :ref:`MAADSBML P
 
 This is a powerful yet simple function to use.  With ONE-LINE of code, MAADSBML will find the best distribution for your data in seconds.
 
-Here are all the distributions it will analyse for your data, and choose the BEST one.
+Here are all the distributions it will analyse for your data, and choose the BEST one using the **sumsquare_error** method.
+
+.. important::
+   The distribution with the lowest **sumsquare_error** is the BEST one.
+
 .. code-block::
 
       [‘alpha’, ‘anglit’, ‘arcsine’, ‘argus’, ‘beta’, ‘betaprime’, ‘bradford’, ‘burr’, ‘burr12’, 
