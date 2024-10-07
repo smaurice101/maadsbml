@@ -16,7 +16,9 @@ complex distributions to find the one that BEST fits your data.
 How To Find The Best Distribution
 ----------------------------
 
-MAADSBML has a function called: **finddistribution**.  Refer to :ref:`MAADSBML Python Library API`
+MAADSBML has a function called: **finddistribution**.  
+
+Refer to :ref:`MAADSBML Python Library API`
 
 This is a powerful yet simple function to use.  With ONE-LINE of code, MAADSBML will find the best distribution for your data in seconds.
 
