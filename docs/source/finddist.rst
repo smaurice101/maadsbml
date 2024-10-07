@@ -110,7 +110,7 @@ Outputs: Four Returned Variables
 Outputs: Distribution Image
 """""""""""""""""""""
 
-2. Image of your distribution curve mapped to your data, as shown below (showing the TOP 7 BEST distributions):
+2. Image of your distribution curve mapped to your data, as shown below (showing the TOP 7 BEST distributions): See `output image here on GitHub <https://github.com/smaurice101/raspberrypi/blob/main/maadsbml/bml.png>`_
 
    .. figure:: dist1.png
       :scale: 50%
