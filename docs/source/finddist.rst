@@ -37,7 +37,7 @@ The data files are also `here on GitHub <https://github.com/smaurice101/raspberr
     
     def genarray():
         mu, sigma = 1, 10.5 # mean and standard deviation
-        data = np.random.normal(mu, sigma, 10000)
+        data = np.random.normal(mu, sigma, 100)
         return data
         
     
@@ -45,14 +45,22 @@ The data files are also `here on GitHub <https://github.com/smaurice101/raspberr
     varname="%Fat"
     filename="weight_height.csv"
     varname="Height"
-    folderpath='C:/MAADS/Companies/firstgenesis/probability distribution'
+    folderpath='<specify path to local folder folder>'
     imgname="bml"
     dataarr = []
     dataarr = genarray()
     finddist(filename,varname,dataarr,folderpath,imgname,1,3)
    
+The output of the **finddist** function will with be:
 
+1. FOUR return variable:
+   a. status: will indicate any ERROR success 
+   b. dist: distribution dataframe
+   c. bestdist: name of best distribution 
+   d. alldata: comprehensive JSON data file
 
+2. Image of your distrubution curve mapped to your data
 
+3. JSON file (same as alldata)
  
 
