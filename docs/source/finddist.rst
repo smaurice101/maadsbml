@@ -6,8 +6,11 @@ complex distributions to find the one that BEST fits your data.
 
 .. important::
    Knowing the distribution of your data is critical for machine learning. Specifically, knowing the distribution is important for:
+
    - calculating the critical regions for hypothesis testing and confidence intervals
+
    - Machine learning algorithms are often based on distributional assumptions and violating these assumptions can lead to biased results
+   
    - Helps in the choice of algorithms to use 
 
 How To Find The Best Distribution
