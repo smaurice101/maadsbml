@@ -106,7 +106,8 @@ Outputs: Comprehensive JSON Data File
 
 3. JSON file (same as alldata): See `Output Here on GitHub <https://github.com/smaurice101/raspberrypi/blob/main/maadsbml/bml_data.json>`_
 
-   A summary of the results is also contained in the JSON file.  Specifically, **norm** is the BEST distribution based on the lowest **sumsquare_error**=**0.0081149046**:
+   A summary of the results is also contained in the JSON file.  Specifically, **norm** is the BEST distribution based on the lowest 
+   **sumsquare_error** = **0.0081149046**:
 
 .. code-block:: JSON
       
