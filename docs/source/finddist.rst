@@ -121,57 +121,53 @@ Outputs: Comprehensive JSON Data File
 3. JSON file (same as alldata): See `Output Here on GitHub <https://github.com/smaurice101/raspberrypi/blob/main/maadsbml/bml_data.json>`_
 
    A summary of the results is also contained in the JSON file.  Specifically, **gamma** is the BEST distribution based on the lowest 
-   **sumsquare_error** = **0.0001542284**:
+   **sumsquare_error** = **0.0001814887**:
 
 .. code-block:: JSON
                   
-      	"bestdistribution": "gamma",
-      	"shape": 88622.926,
-      	"loc": -3165.175,
-      	"scale": 0.036,
       	"summary": {
       		"sumsquare_error": {
-      			"gamma": 0.0001542284,
-      			"norm": 0.0001548898,
-      			"lognorm": 0.0001566958,
-      			"chi2": 0.0002046507,
-      			"cauchy": 0.0028620826,
-      			"rayleigh": 0.0105224588,
-      			"powerlaw": 0.0169260703
+      			"gamma": 0.0001814887,
+      			"norm": 0.0001828346,
+      			"chi2": 0.0002025934,
+      			"lognorm": 0.0002224293,
+      			"cauchy": 0.0027350555,
+      			"rayleigh": 0.0117642895,
+      			"powerlaw": 0.017502358
       		},
       		"aic": {
-      			"gamma": 1149.7382825946,
-      			"norm": 1147.2692929564,
-      			"lognorm": 1159.2415339377,
-      			"chi2": 1173.9152701028,
-      			"cauchy": 1033.9404491312,
-      			"rayleigh": 925.4426473823,
-      			"powerlaw": 901.4556624869
+      			"gamma": 1265.1777664529,
+      			"norm": 1262.325861669,
+      			"chi2": 1295.9483921464,
+      			"lognorm": 1322.0959274175,
+      			"cauchy": 1064.0702058171,
+      			"rayleigh": 943.187532113,
+      			"powerlaw": 920.517365162
       		},
       		"bic": {
-      			"gamma": 1171.3693037105,
-      			"norm": 1161.6899737004,
-      			"lognorm": 1180.8725550537,
-      			"chi2": 1195.5462912187,
-      			"cauchy": 1048.3611298752,
-      			"rayleigh": 939.8633281262,
-      			"powerlaw": 923.0866836028
+      			"gamma": 1286.8087875688,
+      			"norm": 1276.746542413,
+      			"chi2": 1317.5794132623,
+      			"lognorm": 1343.7269485335,
+      			"cauchy": 1078.4908865611,
+      			"rayleigh": 957.6082128569,
+      			"powerlaw": 942.148386278
       		},
       		"ks_statistic": {
-      			"gamma": 0.0060977192,
-      			"norm": 0.0064710822,
-      			"lognorm": 0.0072002015,
-      			"chi2": 0.0158653357,
-      			"cauchy": 0.0748045618,
-      			"rayleigh": 0.2564481325,
-      			"powerlaw": 0.3170921301
+      			"gamma": 0.0081781542,
+      			"norm": 0.0086574911,
+      			"chi2": 0.0119634473,
+      			"lognorm": 0.0146829697,
+      			"cauchy": 0.0741439895,
+      			"rayleigh": 0.2884171645,
+      			"powerlaw": 0.3436579581
       		},
       		"ks_pvalue": {
-      			"gamma": 0.8487981921,
-      			"norm": 0.7939223878,
-      			"lognorm": 0.6749089697,
-      			"chi2": 0.0128838887,
-      			"cauchy": 4.130183894e-49,
+      			"gamma": 0.5128041638,
+      			"norm": 0.4392613156,
+      			"chi2": 0.1133222869,
+      			"lognorm": 0.0265547382,
+      			"cauchy": 2.970808383e-48,
       			"rayleigh": 0.0,
       			"powerlaw": 0.0
       		}
@@ -182,11 +178,11 @@ Outputs: Comprehensive JSON Data File
       	"distimagefilename": "bml.png",
       	"jsondatafilename": "bml.json",
       	"nobs": 10000,
-      	"min": -41.54803684864877,
-      	"max": 39.4193605288367,
-      	"mean": 0.974,
-      	"variance": 113.113,
-      	"std": 10.635,
-      	"skewness": -0.007,
-      	"kurtosis": -0.017,
+      	"min": -45.517,
+      	"max": 42.882,
+      	"mean": 1.035,
+      	"variance": 108.372,
+      	"std": 10.41,
+      	"skewness": 0.007,
+      	"kurtosis": 0.045,
       	"isarray": 1
