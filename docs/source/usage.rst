@@ -153,7 +153,7 @@ You need to configure and run this command to start the MAADSBML container solut
 
 .. code-block:: console
    
-   docker run -d \
+   docker run --net=host -d  \
    -v {YOUR LOCAL FOLDER PATH}/csvuploads:/maads/agentfilesdocker/dist/maadsweb/csvuploads:z \ 
    -v {YOUR LOCAL FOLDER PATH}/pdfreports:/maads/agentfilesdocker/dist/maadsweb/pdfreports:z \
    -v {YOUR LOCAL FOLDER PATH}/autofeatures:/maads/agentfilesdocker/dist/maadsweb/autofeatures:z \
