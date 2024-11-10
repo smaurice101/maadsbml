@@ -250,7 +250,7 @@ MAADSBML Docker Run Parameters Explained
    * - VIPERVIZPORT
      - This is the port for the MAADSBML dashboard. 
 
-       Refer to :ref:`MAADSBML Dashboard`
+       Refer to :ref:`MAADSBML Real-Time Dashboard`
    * - BROKERHOSTPORT
      - This is the boker host and port for Kafka
 
