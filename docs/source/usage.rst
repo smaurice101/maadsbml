@@ -174,7 +174,7 @@ You need to configure and run this command to start the MAADSBML contaner soluti
    --env MAXRUNTIME=120 \
    --env ACCEL=0 \
    --env MAINHOST=127.0.0.1 \
-   -env CHIP=AMD64 \
+   --env CHIP=AMD64 \
    --env VIPERLOGNAME=bmllogs \
    --env VIPERVIZPORT=9090 \
    --env BROKERHOSTPORT=127.0.0.1:9092 \
