@@ -1,14 +1,16 @@
 MAADSBML Dashboard
 =====================
 
-You can see all of the output from the MAADSBML engine in a dashboard.  
+You can see all of the output from the MAADSBML engine in a dashboard.  As shown below.
 
-To access the Dashboard simply enter this URL in your browser:
-
-URL: http://localhost:9090/maadsbmllogs.html?topic=bmllogs&append=0
+.. figure:: bmldash.png
+   :scale: 60%
 
 Dashboard URL
 ------------
+To access the Dashboard simply enter this URL in your browser:
+
+URL: http://localhost:9090/maadsbmllogs.html?topic=bmllogs&append=0
 
 .. note::
    This URL accesses the Kafka topic called: bmllogs.  This the topic you set in the Docker Run command field: VIPERLOGNAME (:ref:`MAADSBML Docker Run Parameters Explained`).
@@ -19,5 +21,3 @@ Dashboard URL
 
    append=0 loads new data into the browser - without appending to the old data.
 
-.. figure:: bmldash.png
-   :scale: 60%
