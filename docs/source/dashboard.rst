@@ -4,7 +4,7 @@ MAADSBML Real-Time Dashboard
 You can see all of the output from the MAADSBML engine in a real-time dashboard.  As shown below.
 
 .. figure:: bmldash.png
-   :scale: 60%
+   :scale: 70%
 
 Dashboard URL
 ------------
