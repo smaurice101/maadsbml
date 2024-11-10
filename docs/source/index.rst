@@ -32,6 +32,7 @@ Contents
    dockerdesktop
    api
    maadsbmlnotebook
+   dashboard
    pdf
    algos
    finddist
