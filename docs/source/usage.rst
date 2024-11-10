@@ -107,6 +107,8 @@ Step 1: Create Local Folders
 
    i. {YOUR LOCAL FOLDER PATH}/staging
 
+   j. {YOUR LOCAL FOLDER PATH}/backup
+
 {YOUR LOCAL FOLDER PATH} is the root folder path on your local machine: i.e. c:/maadsbml
 
 .. important:: 
@@ -141,6 +143,8 @@ MAADSBML Folder Explanation
      - THIS IS THE JSON FILE FOR THE ALGORITHM OUTPUT
    * - staging 
      - THIS IS A SYSTEM FOLDER
+   * - backup
+     - THIS IS WHERE ALL YOUR BACKUP REPORTS ARE SAVED LOCALLY
 
 MAADSBML Docker Run Command
 ----------------
@@ -159,6 +163,7 @@ You need to configure and run this command to start the MAADSBML contaner soluti
    -v {YOUR LOCAL FOLDER PATH}/networks:/maads/agentfilesdocker/networks:z \
    -v {YOUR LOCAL FOLDER PATH}/exception:/maads/agentfilesdocker/dist/maadsweb/exception:z \
    -v {YOUR LOCAL FOLDER PATH}/staging:/maads/agentfilesdocker/dist/staging:z \
+   -v {YOUR LOCAL FOLDER PATH}/backup:/Viperviz/viperviz/views/backup:z \
    -p 5595:5595 \  
    -p 5495:5495 \
    -p 10000:10000 \
@@ -169,6 +174,12 @@ You need to configure and run this command to start the MAADSBML contaner soluti
    --env MAXRUNTIME=120 \
    --env ACCEL=0 \
    --env MAINHOST=127.0.0.1 \
+   -env CHIP=AMD64 \
+   --env VIPERLOGNAME=bmllogs \
+   --env VIPERVIZPORT=9090 \
+   --env BROKERHOSTPORT=127.0.0.1:9092 \
+   --env KAFKACLOUDUSERNAME= \
+   --env KAFKACLOUDPASSWORD= \
    maadsdocker/maads-batch-automl-otics
 
 .. important::
@@ -232,6 +243,30 @@ MAADSBML Docker Run Parameters Explained
      - This is the IP Address MAADSBML will listen 
  
        on for connections.
+   * - CHIP
+     - Set to AMD64 for Windows/Linux or ARM64 for Mac 
+   * - VIPERLOGNAME
+     - All MAADSBML logs are stored in this Kafka Topic
+   * - VIPERVIZPORT
+     - This is the port for the MAADSBML dashboard. 
+
+       Refer to :ref:`MAADSBML Dashboard`
+   * - BROKERHOSTPORT
+     - This is the boker host and port for Kafka
+
+       For on-premise Kafka use: 127.0.0.1:9092
+
+       For Cloud Kafka you need the cluster broker url
+
+       You get this from your Clound vendor: AWS or Confluent
+   * - KAFKACLOUDUSERNAME
+     - If using Kafka Cloud you must specify a cloud username
+
+       This usually the API Key
+   * - KAFKACLOUDPASSWORD
+     - If using Kafka Cloud you must specify the cloud password.
+
+       This is usually the API Secret
    * - maadsdocker/maads-batch-automl-otics
      - MAADSBML Docker container for Windows/Linux users
    * - maadsdocker/maads-batch-automl-otics-arm64
