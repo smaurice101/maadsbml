@@ -18,3 +18,6 @@ Dashboard URL
    maadsbmllogs.html is the dashboard HTML running in your MAADSBML container.
 
    append=0 loads new data into the browser - without appending to the old data.
+
+.. figure:: bmldash.png
+   :scale: 60%
