@@ -1,7 +1,7 @@
-MAADSBML Dashboard
+MAADSBML Real-Time Dashboard
 =====================
 
-You can see all of the output from the MAADSBML engine in a dashboard.  As shown below.
+You can see all of the output from the MAADSBML engine in a real-time dashboard.  As shown below.
 
 .. figure:: bmldash.png
    :scale: 60%
