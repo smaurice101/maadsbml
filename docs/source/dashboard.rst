@@ -9,7 +9,7 @@ You can see all of the output from the MAADSBML engine in a real-time dashboard.
 .. tip::
    You can also download the entire dashboard table to a JSON or CSV.  
 
-   Note:  This dashboard is re-generated wvery time you start your MAADSBML container.  However, all generated reports are backed up to your local backup folder - as explained here: :ref:`MAADSBML Folder Explanation`.
+   Note:  This dashboard is re-generated every time you start your MAADSBML container.  However, all generated reports are backed up to your local backup folder - as explained here: :ref:`MAADSBML Folder Explanation`.
 
 Dashboard URL
 ------------
