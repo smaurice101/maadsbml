@@ -21,3 +21,7 @@ URL: http://localhost:9090/maadsbmllogs.html?topic=bmllogs&append=0
 
    append=0 loads new data into the browser - without appending to the old data.
 
+.. tip::
+   As you iterate in your Machine Learning Modeling - MAADSBML stores all the reports in your your backup folder.  
+
+   Therefore, it is important to you map a local folder to the container backup folder (:ref:`MAADSBML Docker Run Parameters Explained`).
