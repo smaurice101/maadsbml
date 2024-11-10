@@ -149,7 +149,7 @@ MAADSBML Folder Explanation
 MAADSBML Docker Run Command
 ----------------
 
-You need to configure and run this command to start the MAADSBML contaner solution.
+You need to configure and run this command to start the MAADSBML container solution.
 
 .. code-block:: console
    
