@@ -18,7 +18,7 @@ MAADSBML is a powerful AutoML technology that can analyse numeric data sets and 
    MAADSBML is accessed using a REST API using the `MAADSBML Python Library <https://pypi.org/project/maadsbml/>`_
 
    A pre-written Jupyter Notebook can be found here: `MAADSBML Jupyter Notebook: maadsbmlcode.ipynb 
-   <https://github.com/smaurice101/raspberrypi/tree/main/maadsbml>`_
+   <https://github.com/smaurice101/raspberrypi/blob/main/maadsbml/maadsbmlcode.ipynb>`_
 
    Additional MAADSBML Setup and Configuration PDF is here: `Setup and Configuration 
    <https://github.com/smaurice101/raspberrypi/blob/main/maadsbml/MAADSBML%20Setup%20and%20Configuration.pdf>`_
