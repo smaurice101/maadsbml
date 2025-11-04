@@ -18,8 +18,9 @@ You must perform the following pre-requistes.
 
      a. .. code-block::
 
-           pip install twine
+           pip install twine==6.2.0
 
      b. .. code-block::
 
-           pip install setuptools
+           pip install setuptools==80.9.0
+
