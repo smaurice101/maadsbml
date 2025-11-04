@@ -143,7 +143,7 @@ You are ready to upload your package.  Follow these steps:
 
 15. See your package on Pypi.org: `studenttestpackage <https://pypi.org/project/studenttestpackage/>`_
 
-       .. figure:: tp13.png
+       .. figure:: tp11.png
           :scale: 70%
 
 
