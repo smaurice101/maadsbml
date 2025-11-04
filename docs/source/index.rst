@@ -23,6 +23,8 @@ MAADSBML is a powerful AutoML technology that can analyse numeric data sets and 
    Additional MAADSBML Setup and Configuration PDF is here: `Setup and Configuration 
    <https://github.com/smaurice101/raspberrypi/blob/main/maadsbml/MAADSBML%20Setup%20and%20Configuration.pdf>`_
 
+   Create Your Python Package
+
 Contents
 --------
 
@@ -36,3 +38,4 @@ Contents
    pdf
    algos
    finddist
+   createpythonpackage
