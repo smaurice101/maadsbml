@@ -155,7 +155,7 @@ You are ready to upload your package.  Follow these steps:
     .. figure:: tp13.png
        :scale: 70%
 
-17. Run your Python function in your Package
+17. Run your Python function in your Package: `testprogram.py <https://github.com/smaurice101/raspberrypi/blob/main/createpythonpackage/studenttestpackage/testprogram.py>`_
 
     .. figure:: tp14.png
        :scale: 70%
