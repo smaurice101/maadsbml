@@ -98,7 +98,7 @@ You MUST have the following:
 
 12. In the file **c:/>pythonpackage/studenttestpackage/studenttestpackage/myfunctions.py**
 
-    This is the file that you define your functions.
+    This is the file where you define your functions.
 
    .. figure:: tp8.png
       :scale: 70%
