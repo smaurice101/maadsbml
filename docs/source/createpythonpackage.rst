@@ -51,7 +51,14 @@ Follow these steps.
 
 1. Goto folder: **c:/>pythonpackage/studenttestpackage**
 
-2. Download the Github files from here: `studenttestpackage <https://github.com/smaurice101/raspberrypi/tree/main/createpythonpackage/studenttestpackage>`_
+2. Download the Github files locally to your computer from here: `studenttestpackage <https://github.com/smaurice101/raspberrypi/tree/main/createpythonpackage/studenttestpackage>`_
 
    .. figure:: tp2.png
+      :scale: 70%
+
+3. Goto folder: **c:/>pythonpackage/studenttestpackage/studenttestpackage**
+
+2. Download the Github files locally to your computer from here: `studenttestpackage/studenttestpackage <https://github.com/smaurice101/raspberrypi/tree/main/createpythonpackage/studenttestpackage/studenttestpackage>`_
+
+   .. figure:: tp3.png
       :scale: 70%
