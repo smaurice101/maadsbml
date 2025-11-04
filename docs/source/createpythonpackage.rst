@@ -51,5 +51,7 @@ Follow these steps.
 
 1. Goto folder: **c:/>pythonpackage/studenttestpackage**
 
-2. 
+2. Download the Github files from here: `studenttestpackage <https://github.com/smaurice101/raspberrypi/tree/main/createpythonpackage/studenttestpackage>`_
 
+   .. figure:: tp2.png
+      :scale: 70%
