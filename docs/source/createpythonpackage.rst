@@ -159,7 +159,11 @@ You are ready to upload your package.  Follow these steps:
 
     .. figure:: tp14.png
        :scale: 70%
-     
+
+18. SUCCESSFUL RESULT!
+
+    .. figure:: tp15.png
+       :scale: 70%
 
 Modify Files to Build Your OWN Python Package
 ---------------------------------------------
