@@ -63,7 +63,7 @@ Follow these steps
    .. figure:: tp3.png
       :scale: 70%
 
-9. In the file **c:/>c:/>pythonpackage/studenttestpackage/setup.py
+9. In the file **c:/>c:/>pythonpackage/studenttestpackage/setup.py**
 
    You MUST have the following:
 
