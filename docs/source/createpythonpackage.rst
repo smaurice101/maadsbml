@@ -46,19 +46,37 @@ Create Your First Python Package
 
    All files for this demo are located on `Github <https://github.com/smaurice101/raspberrypi/tree/main/createpythonpackage>`_
 
-Follow these steps.
+Follow these steps
 '''''''''''''''''''
 
-1. Goto folder: **c:/>pythonpackage/studenttestpackage**
+5. Goto folder: **c:/>pythonpackage/studenttestpackage**
 
-2. Download the Github files locally to your computer from here: `studenttestpackage <https://github.com/smaurice101/raspberrypi/tree/main/createpythonpackage/studenttestpackage>`_
+6. Download the Github files locally to your computer from here: `studenttestpackage <https://github.com/smaurice101/raspberrypi/tree/main/createpythonpackage/studenttestpackage>`_
 
    .. figure:: tp2.png
       :scale: 70%
 
-3. Goto folder: **c:/>pythonpackage/studenttestpackage/studenttestpackage**
+7. Goto folder: **c:/>pythonpackage/studenttestpackage/studenttestpackage**
 
-2. Download the Github files locally to your computer from here: `studenttestpackage/studenttestpackage <https://github.com/smaurice101/raspberrypi/tree/main/createpythonpackage/studenttestpackage/studenttestpackage>`_
+8. Download the Github files locally to your computer from here: `studenttestpackage/studenttestpackage <https://github.com/smaurice101/raspberrypi/tree/main/createpythonpackage/studenttestpackage/studenttestpackage>`_
 
    .. figure:: tp3.png
       :scale: 70%
+
+9. In the file **c:/>c:/>pythonpackage/studenttestpackage/setup.py
+
+   You MUST have the following:
+
+   a. name='studenttestpackage', (THIS MUST MATCH THE NAME OF YOUR PACKAGE)
+
+   b. packages=['studenttestpackage'], (THIS MUST MATCH THE NAME OF YOUR PACKAGE)
+
+   .. figure:: tp4.png
+      :scale: 70%
+
+Modify Files to Build Your OWN Python Package
+---------------------------------------------
+
+The above files will produce a python package **studenttestpackage** - but you want to create a NEW python package for yourself.  To do this you can easily modify the folders and files.
+
+9. Say you want to create
