@@ -187,11 +187,11 @@ The above files will produce a python package **studenttestpackage** - but you w
 
       b. packages=['bugsbunny'], (THIS MUST MATCH THE NAME OF YOUR PACKAGE)
 
-   c. Modify 11.a
+   c. Modify **11.a**
 
       a. name = "bugsbunny" (THIS MUST MATCH THE NAME OF YOUR PACKAGE)
 
-   d. **Re-Run: 14.a 14.b 14.c**
+   d. Re-Run: **14.a, 14.b, 14.c**
 
 20. Install your package
 
