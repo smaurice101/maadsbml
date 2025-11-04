@@ -146,6 +146,20 @@ You are ready to upload your package.  Follow these steps:
        .. figure:: tp11.png
           :scale: 70%
 
+16. Install your package
+
+    .. code-block::
+
+       pip install studenttestpackage==1.0
+        
+    .. figure:: tp13.png
+       :scale: 70%
+
+17. Run your Python function in your Package
+
+    .. figure:: tp14.png
+       :scale: 70%
+     
 
 Modify Files to Build Your OWN Python Package
 ---------------------------------------------
