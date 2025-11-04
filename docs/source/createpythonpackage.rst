@@ -116,7 +116,16 @@ Uploading Your Package to Pypi
 
 You are ready to upload your package.  Follow these steps:
 
-14. Goto
+14. Goto folder: **c:/>pythonpackage/studenttestpackage/**
+
+    a. Execute the command:
+
+       .. code-block::
+
+          python setup.py sdist bdist_wheel
+
+    .. figure:: tp9.png
+       :scale: 70%
 
 Modify Files to Build Your OWN Python Package
 ---------------------------------------------
