@@ -16,11 +16,24 @@ You must perform the following pre-requistes.
 
    3. Install the following packages:
 
-     a. .. code-block::
+     a. `Python 3.12 <https://www.python.org/downloads/release/python-3120/>`_ or greater
+          
+     b. .. code-block::
 
            pip install twine==6.2.0
 
      b. .. code-block::
 
            pip install setuptools==80.9.0
+
+   4. Create local folder on your machine.  You can choose proper name.  For our example, we will create a folder called: **pythonpackage** 
+
+      a. Inside **pythonpackage** create your package.  For our example, we created **studenttestpackage**
+
+      b. Inside **studenttestpackage** create another folder with the SAME name: **studenttestpackage**
+
+      .. figure::
+         :scale: 70% 
+
+
 
