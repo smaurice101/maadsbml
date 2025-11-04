@@ -170,4 +170,30 @@ Modify Files to Build Your OWN Python Package
 
 The above files will produce a python package **studenttestpackage** - but you want to create a NEW python package for yourself.  To do this you can easily modify the folders and files.
 
-9. Say you want to create
+.. important::
+
+   Everytime you make changes to your package you MUST provide a new version number in the setup.py
+
+   .. figure:: tp16.png
+      :scale: 70%
+
+19. You want to create OWN Package.  To the following:
+
+   a. Modify the name of the package: **studenttestpackage**  to your desired name i.e. **bugsbunny** in steps **4.a** and **4.b**
+
+   b. Modify **9.a** and **9.b** to your new package name **bugsbunny**    
+
+      a. name='bugsbunny', (THIS MUST MATCH THE NAME OF YOUR PACKAGE)
+
+      b. packages=['bugsbunny'], (THIS MUST MATCH THE NAME OF YOUR PACKAGE)
+
+   c. Modify 11.a
+
+      a. name = "bugsbunny" (THIS MUST MATCH THE NAME OF YOUR PACKAGE)
+
+20. Install your package
+
+    .. code-block::
+
+       pip install bugsbunny==1.0
+        
