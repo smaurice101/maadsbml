@@ -103,7 +103,20 @@ You MUST have the following:
    .. figure:: tp8.png
       :scale: 70%
 
+13. The other files in **c:/>pythonpackage/studenttestpackage/**
 
+    a. **requirements.txt** (This is where you can define additional packages you need and Python will automatically download them so users of your package DO NOT have to)
+
+    b. **license.txt** (This is the file you can define any licensing for your package)
+
+    c. **readme.md** (This is the file where you write the documentation for your package. For example, how to use the functions in **myfunctions.py**
+
+Uploading Your Package to Pypi
+------------------------------
+
+You are ready to upload your package.  Follow these steps:
+
+14. Goto
 
 Modify Files to Build Your OWN Python Package
 ---------------------------------------------
