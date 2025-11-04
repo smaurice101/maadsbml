@@ -32,7 +32,7 @@ You must perform the following pre-requistes.
 
       b. Inside **studenttestpackage** create another folder with the SAME name: **studenttestpackage**
 
-      .. figure::
+      .. figure:: tp1.png
          :scale: 70% 
 
 
