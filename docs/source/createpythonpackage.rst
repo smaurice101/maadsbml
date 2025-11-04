@@ -35,5 +35,21 @@ You must perform the following pre-requistes.
       .. figure:: tp1.png
          :scale: 70% 
 
+      .. important::
 
+         You MUST choose your own unique python package name.  You CAN NOT choose: **studenttestpackage** it is already an existing python package under a different username.
+
+Create Your First Python Package
+----------------------------------
+
+.. tip::
+
+   All files for this demo are located on `Github <https://github.com/smaurice101/raspberrypi/tree/main/createpythonpackage>`_
+
+Follow these steps.
+'''''''''''''''''''
+
+1. Goto folder: **c:/>pythonpackage/studenttestpackage**
+
+2. 
 
