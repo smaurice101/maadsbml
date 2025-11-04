@@ -118,7 +118,7 @@ You are ready to upload your package.  Follow these steps:
 
 14. Goto folder: **c:/>pythonpackage/studenttestpackage/**
 
-    a. Execute the command:
+    a. Execute the command 1:
 
        .. code-block::
 
@@ -126,6 +126,26 @@ You are ready to upload your package.  Follow these steps:
 
     .. figure:: tp9.png
        :scale: 70%
+
+    b. Execute the command 2:
+
+       .. code-block::
+
+          twine upload dist/*
+
+    .. figure:: tp10.png
+       :scale: 70%
+
+    c. Execute the command 3:
+
+       .. figure:: tp12.png
+          :scale: 70%
+
+15. See your package on Pypi.org: `studenttestpackage <https://pypi.org/project/studenttestpackage/>`_
+
+       .. figure:: tp13.png
+          :scale: 70%
+
 
 Modify Files to Build Your OWN Python Package
 ---------------------------------------------
