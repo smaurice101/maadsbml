@@ -136,7 +136,7 @@ You are ready to upload your package.  Follow these steps:
     .. figure:: tp10.png
        :scale: 70%
 
-    c. Execute the command 3:
+    c. Enter Your Token:
 
        .. figure:: tp12.png
           :scale: 70%
