@@ -92,9 +92,16 @@ You MUST have the following:
 
    b. The function you define are exported in lines:
 
-      1. from .myfunctions import sayhello
+      1. **from .myfunctions import sayhello**
 
-      2. from .myfunctions import saygoodbye
+      2. **from .myfunctions import saygoodbye**
+
+12. In the file **c:/>pythonpackage/studenttestpackage/studenttestpackage/myfunctions.py**
+
+    This is the file that you define your functions.
+
+   .. figure:: tp8.png
+      :scale: 70%
 
 
 
