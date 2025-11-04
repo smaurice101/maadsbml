@@ -39,8 +39,8 @@ You must perform the following pre-requistes.
 
          You MUST choose your own unique python package name.  You CAN NOT choose: **studenttestpackage** it is already an existing python package under a different username.
 
-Create Your First Python Package
-----------------------------------
+How to Create Your Own Python Packages
+-------------------------------------
 
 .. tip::
 
