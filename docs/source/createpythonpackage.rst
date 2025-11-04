@@ -63,7 +63,7 @@ Follow these steps
    .. figure:: tp3.png
       :scale: 70%
 
-9. In the file **c:/>c:/>pythonpackage/studenttestpackage/setup.py**
+9. In the file **c:/>pythonpackage/studenttestpackage/setup.py**
 
    You MUST have the following:
 
@@ -73,6 +73,30 @@ Follow these steps
 
    .. figure:: tp4.png
       :scale: 70%
+
+10. Goto folder: **c:/>pythonpackage/studenttestpackage/studenttestpackage**
+
+    .. figure:: tp5.png
+       :scale: 70%
+
+11. In the file **c:/>pythonpackage/studenttestpackage/studenttestpackage/__init__.py**
+
+    This is the file that EXPORTS your python function that you write.  In this example all functions are defined in file **myfunctions.py**
+
+You MUST have the following:
+
+   a. name = "studenttestpackage" (THIS MUST MATCH THE NAME OF YOUR PACKAGE)
+
+   .. figure:: tp7.png
+      :scale: 70%
+
+   b. The function you define are exported in lines:
+
+      1. from .myfunctions import sayhello
+
+      2. from .myfunctions import saygoodbye
+
+
 
 Modify Files to Build Your OWN Python Package
 ---------------------------------------------
