@@ -197,3 +197,8 @@ The above files will produce a python package **studenttestpackage** - but you w
 
        pip install bugsbunny==1.0
         
+21. import the package in your Python program
+
+    .. code-block::
+
+       import bugsbunny as tp
